@@ -1,3 +1,23 @@
 .Logo {
     width: 7cm;
+    display: inline;
+}
+.Links {
+    display: inline;
+    float: right;
+    margin-top: 35px;
+}
+a {
+    padding: 12px;
+    color: #1C76DF;
+    text-decoration: none;
+}
+button {
+    margin-left: 50px;
+    margin-right: 80px;
+    background-color: #52A2FF;
+    color: white;
+    border: 3px solid #D9D9D9;
+    width: 110px;
+    height: 30px;
 }
