@@ -12,24 +12,57 @@ a {
     color: #1C76DF;
     text-decoration: none;
 }
+h3 {
+    font-size: 27px;
+}
+h6 {
+    font-size: 15px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex1 {
+    flex: 1;
+    margin-right: 40px;
+    width: 50%;
+    
+}
+.flex2 {
+   flex: 2;
+}
 .Homewelcome {
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    
 }
 .Homeservices {
     height: 500px;
+    text-align: left;
+    overflow: hidden;
+    
 }
 .Homeskillpic {
     width: 100%;
     position: relative;
     float: left;
+    margin: -5px -10px -10px -5px;
+    filter: blur(16px);
 }
 .Homeskilltext {
     position: absolute;
     z-index: 2;
+    width: 90%;
+    left: 70px;
+    margin-top: 70px;
 }
-
+.Testimonialtext {
+    text-align: center;
+}
+.Quotepic {
+    width: 90px;
+}
 button {
     margin-left: 50px;
     margin-right: 80px;
