@@ -86,7 +86,7 @@ button {
 }
 .Footer {
     background-color: #5D92E8;
-    padding: 20px;
+    padding-top: 10px;
 }
 .Flex-containerfooter {
     display: flex;
@@ -118,7 +118,24 @@ button {
 }
 .Licence {
     text-align: center;
+    background-color: #4F89E8;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.Licence h6 {
+    padding-top: 15px;
+    color: aliceblue;
 }
 .Copyright {
     text-align: center;
+    background-color: #F1F7FF;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.Copyright h6 {
+    padding-top: 15px;
+    margin: 0;
+    color: #2169bb;
 }
