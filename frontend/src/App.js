@@ -5,6 +5,7 @@ import Home from "./components/home.component"
 import Services from "./components/services.component"
 import Aboutus from "./components/about.component"
 import Location from "./components/location.component"
+import Footer from "./components/footer.component"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/services" exact component={Services}/>
         <Route path="/aboutus" exact component={Aboutus}/>
         <Route path="/location" exact component={Location}/>
+        <Footer className="Footer"/>
 
       </Router>
       
