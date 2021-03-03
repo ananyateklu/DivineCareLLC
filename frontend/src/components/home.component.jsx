@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Pic1 from "../assets/homepic1.jpg"
 import Pic2 from "../assets/homeskill.jpg"
+import Pic3 from "../assets/tick.png"
 
 export default class home extends Component {
     render() {
@@ -55,6 +56,32 @@ export default class home extends Component {
                    
                     </div>
                     
+                </div>
+                <div className="Testimonials">
+                    <div className="Testimonialtext">
+                        <h3>Testimonial</h3>
+                        <img className="Quotepic" src={Pic3} alt="quote-pic"/>
+                        <h6>My son Jared has been a resident  in the Divine Care residence 
+                            in Burnsville for almost three years.  Jared, his mother and I 
+                            are extremely happy and pleased with the care he has received 
+                            since the day he moved in.  The Divine Care staff have been 
+                            caring, attentive to his needs and wishes and are positive 
+                            and timely in their actions and communications with Jared 
+                            and with us.  Jared has been in group homes for over twenty 
+                            years. Prior to moving into this group home, Jared had been in 
+                            two different group home settings.  This is the best setting Jared 
+                            has been in.  
+                            </h6>
+                            <h6>Jared is a bright man, who needs help accessing his environment 
+                            and daily needs.   Jared needs twenty four hour supervision, has 
+                            ophisticated medical equipment, uses a power wheelchair, and has 
+                            medical conditions that need to be monitored.  The Divine Care staff 
+                            have done a great job helping Jared to safely and consistently access 
+                            his environment and keep his technology working.</h6>
+                            <h6>I highly recommend Divine Care as a provider.  They have great 
+                            staff members, well defined leadership positions at the house level 
+                            and an open and professional administrative staff.</h6>
+                    </div>
                 </div>
             </div>
         )
