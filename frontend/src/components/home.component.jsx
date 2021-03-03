@@ -61,6 +61,8 @@ export default class home extends Component {
                     <div className="Testimonialtext">
                         <h3>Testimonial</h3>
                         <img className="Quotepic" src={Pic3} alt="quote-pic"/>
+                        <h3>Richard Green</h3>
+                        <h3 className="Fatherof">Father of Divine Care Resident</h3>
                         <h6>My son Jared has been a resident  in the Divine Care residence 
                             in Burnsville for almost three years.  Jared, his mother and I 
                             are extremely happy and pleased with the care he has received 
