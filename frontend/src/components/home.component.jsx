@@ -26,7 +26,7 @@ export default class home extends Component {
                 <div className="Homeservices">
                     <img className="Homeskillpic" src={Pic2} alt="pic2"/>
                     <div className="Homeskilltext">
-                        <div className="flex-container">
+                        <div className="flex-containerhome">
                             <div className="flex1">
                                 <h3>SKILLED NURSING FACILITIES AT DIVINE CARE LLC</h3>
                                 <h6>Our residential home, customized person center is
