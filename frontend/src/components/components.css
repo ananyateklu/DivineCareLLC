@@ -7,29 +7,110 @@
     float: right;
     margin-top: 30px;
 }
+.Titlediv {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.Title {
+    display: inline;
+}
+.Title2 {
+    color:#4F89E8;
+    display: inline;
+}
+
 a {
-    padding: 12px;
-    color: #1C76DF;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
     text-decoration: none;
+    font-size: 13px;
+}
+.linkon {
+    background-color: #5D92E8;
+    color: aliceblue;
+}
+.linkoff {
+    background-color: transparent;
+    color: #1C76DF;
+}
+h3 {
+    font-size: 27px;
+}
+h6 {
+    font-size: 15px;
+    margin: 10px;
+  
+}
+.flex-containerhome {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex1 {
+    flex: 1;
+    margin-right: 40px;
+    width: 50%;
+    
+}
+.flex2 {
+   flex: 2;
 }
 .Homewelcome {
     text-align: center;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
+    margin-bottom: 70px;
+    
+}
+.Homewelcome h6 {
+    font-weight: 500;
+}
+.Homewelcome h3 {
+    font-weight: 700;
 }
 .Homeservices {
-    height: 500px;
+    height: 600px;
+    text-align: left;
+    overflow: hidden;
+    
+}
+.Homeservices h6 {
+    font-weight: 500;
 }
 .Homeskillpic {
     width: 100%;
     position: relative;
     float: left;
+    margin: -5px -10px -10px -5px;
+    filter: blur(16px);
 }
 .Homeskilltext {
     position: absolute;
     z-index: 2;
+    width: 90%;
+    left: 70px;
+    margin-top: 70px;
 }
-
+.Testimonials {
+    padding-bottom: 30px;
+}
+.Testimonials h6 {
+    font-weight: 500;
+}
+.Testimonialtext {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.Quotepic {
+    width: 90px;
+}
+.Fatherof {
+    font-weight: 200;
+}
 button {
     margin-left: 50px;
     margin-right: 80px;
@@ -43,4 +124,62 @@ button {
     width: 100%;
     margin-top: 0px;
     padding-top: 0px;
+}
+.Footer {
+    background-color: #5D92E8;
+    padding-top: 10px;
+}
+.Flex-containerfooter {
+    display: flex;
+}
+.Flexfooter1 {
+    flex: 1;
+}
+.Flexfooter2 {
+    flex: 1;
+}
+.Footerbutton {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 5px;
+
+}
+.Footer a {
+    padding: 7px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footerh3 {
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.Licence {
+    text-align: center;
+    background-color: #4F89E8;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.Licence h6 {
+    padding-top: 15px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.Copyright {
+    text-align: center;
+    background-color: #F1F7FF;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.Copyright h6 {
+    padding-top: 15px;
+    margin: 0;
+    font-weight: 500;
+    color: #2169bb;
 }
