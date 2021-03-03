@@ -7,10 +7,35 @@
     float: right;
     margin-top: 30px;
 }
+.Titlediv {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.Title {
+    display: inline;
+}
+.Title2 {
+    color:#4F89E8;
+    display: inline;
+}
+
 a {
-    padding: 12px;
-    color: #1C76DF;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
     text-decoration: none;
+    font-size: 13px;
+}
+.linkon {
+    background-color: #5D92E8;
+    color: aliceblue;
+}
+.linkoff {
+    background-color: transparent;
+    color: #1C76DF;
 }
 h3 {
     font-size: 27px;
@@ -35,15 +60,25 @@ h6 {
 }
 .Homewelcome {
     text-align: center;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
+    margin-bottom: 70px;
     
 }
+.Homewelcome h6 {
+    font-weight: 500;
+}
+.Homewelcome h3 {
+    font-weight: 700;
+}
 .Homeservices {
-    height: 500px;
+    height: 600px;
     text-align: left;
     overflow: hidden;
     
+}
+.Homeservices h6 {
+    font-weight: 500;
 }
 .Homeskillpic {
     width: 100%;
@@ -58,6 +93,12 @@ h6 {
     width: 90%;
     left: 70px;
     margin-top: 70px;
+}
+.Testimonials {
+    padding-bottom: 30px;
+}
+.Testimonials h6 {
+    font-weight: 500;
 }
 .Testimonialtext {
     width: 50%;
@@ -122,9 +163,11 @@ button {
     width: 100%;
     height: 50px;
     margin: 0;
+    padding-bottom: 10px;
 }
 .Licence h6 {
     padding-top: 15px;
+    font-weight: 600;
     color: aliceblue;
 }
 .Copyright {
@@ -137,5 +180,6 @@ button {
 .Copyright h6 {
     padding-top: 15px;
     margin: 0;
+    font-weight: 500;
     color: #2169bb;
 }
