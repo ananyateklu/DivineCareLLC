@@ -20,7 +20,7 @@ h6 {
     margin: 10px;
   
 }
-.flex-container {
+.flex-containerhome {
     display: flex;
     flex-wrap: wrap;
 }
@@ -83,4 +83,42 @@ button {
     width: 100%;
     margin-top: 0px;
     padding-top: 0px;
+}
+.Footer {
+    background-color: #5D92E8;
+    padding: 20px;
+}
+.Flex-containerfooter {
+    display: flex;
+}
+.Flexfooter1 {
+    flex: 1;
+}
+.Flexfooter2 {
+    flex: 1;
+}
+.Footerbutton {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 5px;
+
+}
+.Footer a {
+    padding: 7px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footerh3 {
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.Licence {
+    text-align: center;
+}
+.Copyright {
+    text-align: center;
 }
