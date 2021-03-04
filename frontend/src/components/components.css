@@ -2,12 +2,17 @@
     width: 6cm;
     display: inline;
 }
+.header {
+    position: absolute;
+}
+
 .Links {
     display: inline;
     float: right;
     margin-top: 30px;
 }
 .Titlediv {
+    margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 15px;
 }
@@ -60,7 +65,7 @@ h6 {
 }
 .Homewelcome {
     text-align: center;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 70px;
     
@@ -79,6 +84,9 @@ h6 {
 }
 .Homeservices h6 {
     font-weight: 500;
+}
+.Homeservices h3 {
+    font-weight: 700;
 }
 .Homeskillpic {
     width: 100%;
@@ -183,3 +191,48 @@ button {
     font-weight: 500;
     color: #2169bb;
 }
+/*  */
+.slider {
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    height: 62vh;
+
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 300px;
+    right: 32px;
+    font-size: 3rem;
+    color: #5D92E8;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 300px;
+    left: 32px;
+    font-size: 3rem;
+    color: #5D92E8;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
