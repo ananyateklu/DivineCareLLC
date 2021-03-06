@@ -15,7 +15,6 @@ export default class header extends Component {
     }
 
     render() {
-        console.log(this.state.ishome)
         return (
             
             <header>

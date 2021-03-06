@@ -50,6 +50,112 @@ h6 {
     margin: 10px;
   
 }
+.imgbody {
+    margin: 0;
+    padding: 0;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider {
+    width: 100vw;
+    margin-top: 220px;
+    height: 435px;
+    overflow: hidden;
+
+  }
+  .slides {
+      width: 300%;
+      height: 500px;
+      display: flex;
+    
+  }
+  .slide img {
+      width: 100vw;
+  }
+  .slides input {
+      display: none;
+  }
+
+  .slide {
+      width: 33.33%;
+      transition: 2s;
+  }
+  .slide.first {
+      background-attachment: red;
+  }
+
+  .navigation-manual {
+      position: absolute;
+      width: 98vw;
+      margin-top: 400px;
+      display: flex;
+      justify-content: center;
+
+  }
+.manual-btn {
+    border: 2px solid #52A2FF;
+    padding:  5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #52A2FF;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+} 
+#radio2:checked ~ .first {
+    margin-left: -33.33%;
+}
+#radio3:checked ~ .first {
+    margin-left: -66.66%;
+}
+#fradio {
+    background-color: #52A2FF;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.navigation-auto div {
+    border: 2px solid #52A2FF ;
+    padding: 5px;
+    border-radius: 10px;
+ 
+
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #52A2FF;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #52A2FF;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #52A2FF;
+}
+
+
 .flex-containerhome {
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +173,7 @@ h6 {
     text-align: center;
     width: 90%;
     margin: 0 auto;
+    margin-top: 230px;
     margin-bottom: 70px;
     
 }
@@ -192,13 +299,7 @@ button {
     color: #2169bb;
 }
 /*  */
-.slider {
-    display: flex;
-    width: 100%;
-    margin-top: 16px;
-    height: 62vh;
 
-  }
   
   .image {
     width: 100%;
@@ -226,7 +327,7 @@ button {
     user-select: none;
   }
   
-  .slide {
+  /* .slide {
     opacity: 0;
     transition-duration: 1s ease;
   }
@@ -235,4 +336,4 @@ button {
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
-  }
+  } */
