@@ -50,19 +50,7 @@ export default class home extends Component {
                 </h6>
               </div>
               <div className="flex2">
-                <h3>SKILLED NURSING FACILITIES AT DIVINE CARE LLC</h3>
-                <h6>
-                  Our residential home, customized person center is equipped to
-                  accommodate a maximum of 4 residents per house to create the
-                  environment of home away from home.There can be many occasions
-                  when you or your family member might require medical
-                  attention. Divine Care provides home care aide service wherein
-                  licensed medical professionals, and skilled nurses deliver
-                  therapeutic services and day to day care and assistance in the
-                  comfort of our customized living/ assisted living. We are here
-                  to provide you with all the support you need towards living a
-                  better life.
-                </h6>
+               
               </div>
             </div>
           </div>
