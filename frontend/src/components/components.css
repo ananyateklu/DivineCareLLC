@@ -445,3 +445,66 @@ button {
       color: #1656a0;
       font-weight: 500;
   }
+
+  .Servicespic img {
+    width: 100%;
+}
+
+.Services {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 900px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+}
+
+.Servicestext {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Servicestitle {
+    text-align: center;
+}
+
+.Servicestext h3 {
+    color: #4F89E8;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.Servicestext h4 {
+    color: #4F89E8;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: large;
+}
+
+.Servicestext li {
+    color: #1656a0;
+    font-weight: 500;
+    width: 90%;
+    list-style-type: circle;
+}
+
+.Homeservices1 {
+    width: 50%;
+    display: inline-table;
+}
+
+.Homeservices2 {
+    width: 50%;
+    display: inline-table;
+}
+
+.Payment {
+    width: 50%;
+    display: inline-table;
+}
+
+.Agegroup {
+    width: 50%;
+    display: inline-table;
+}
