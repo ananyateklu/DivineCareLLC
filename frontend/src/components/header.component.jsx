@@ -16,8 +16,8 @@ export default class header extends Component {
 
     render() {
         return (
-            
-            <header>
+            <div className="Header">
+                <header>
                 <img className="Logo" src={logo} alt="logo"/>
                 <div className="Links">
                     <Link to="/" className={this.state.ishome ? "linkon" : "linkoff"} onClick={ () => this.setState({ishome: true, isabout: false, iscontact: false, isservices: false, islocation: false}) }>HOME</Link>
@@ -29,6 +29,8 @@ export default class header extends Component {
                 </div>
              
             </header>
+            </div>
+            
         )
     }
 }
