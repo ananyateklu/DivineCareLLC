@@ -15,6 +15,11 @@ function App() {
     <div className="App">
       <Router>
         <Header className="Header" />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Route
           render={({location}) => (
             <TransitionGroup>
