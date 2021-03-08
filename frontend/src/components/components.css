@@ -1,9 +1,14 @@
 .Logo {
-    width: 6cm;
+    width: 6.5cm;
     display: inline;
 }
-.header {
-    position: absolute;
+
+.Header {
+    position: fixed;
+    background-color: aliceblue;
+    height: 88px;
+    width: 100%;
+    z-index: 3;
 }
 
 .Links {
@@ -42,6 +47,7 @@ a {
 .linkon {
     background-color: #5D92E8;
     color: aliceblue;
+    padding-bottom: 36px;
 }
 .linkoff {
     background-color: transparent;
@@ -324,6 +330,9 @@ button {
     background-color: #5D92E8;
     padding-top: 10px;
 }
+.Footer img {
+    width: 230px;
+}
 .Flex-containerfooter {
     display: flex;
 }
@@ -424,7 +433,8 @@ button {
   .About {
       width: 80vw;
       margin-left: 10vw;
-      height: 600px;
+      height: auto;
+      padding-bottom: 30px;
       background-color: white;
       margin-bottom: 40px;
       box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
@@ -455,9 +465,10 @@ button {
 .Services {
     width: 80vw;
     margin-left: 10vw;
-    height: 900px;
+    height: auto;
+    padding-bottom: 40px;
     background-color: white;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     box-shadow: 0 0 5px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
 }
 
@@ -525,7 +536,8 @@ button {
 .Contact {
     width: 80vw;
     margin-left: 10vw;
-    height: 800px;
+    height: auto;
+    padding-bottom: 40px;
     background-color: white;
     margin-bottom: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
