@@ -28,9 +28,9 @@ export default class home extends Component {
             assistance that should focus not only on physical and mental health
             but also on their spiritual and social well-being. At Divine Care
             LLC, we not only aim to optimize the health of our client but also
-            encourage them to engage within the community and be independent.{" "}
-            <img className="Licence1" src= {Licence1} alt="Licence"/>
+            encourage them to engage within the community and be independent.
           </h6>
+          <img className="Licence1" src= {Licence1} alt="Licence"/>
         </div>
         <div className="Homeservices">
           <img className="Homeskillpic" src={Pic2} alt="pic2" />
