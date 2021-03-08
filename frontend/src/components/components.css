@@ -289,6 +289,8 @@ h6 {
 }
 .Testimonials {
     padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .Testimonials h6 {
     font-weight: 500;
@@ -425,7 +427,7 @@ button {
       height: 600px;
       background-color: white;
       margin-bottom: 40px;
-      box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+      box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
   }
 
   .Abouttext {
@@ -456,7 +458,7 @@ button {
     height: 900px;
     background-color: white;
     margin-bottom: 40px;
-    box-shadow: 0 0 5px rgba(0,0,0,.05), 2px 2px 5px rgba(0,0,0,.1);
+    box-shadow: 0 0 5px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
 }
 
 .Servicestext {
@@ -507,4 +509,46 @@ button {
 .Agegroup {
     width: 50%;
     display: inline-table;
+}
+
+.Contactpic {
+    overflow: hidden;
+}
+
+.Contactpic img {
+    width: 100%;
+    opacity: 0.8;
+    filter: blur(3px);
+    margin: -5px -10px -10px 0px;
+
+}
+.Contact {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 800px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
+}
+
+.Contacttext {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Contacttitle {
+    text-align: center;
+}
+.Contacttext h3 {
+    color: #4F89E8;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.Contactinput {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    background-color: aliceblue;
 }
