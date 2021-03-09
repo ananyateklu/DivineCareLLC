@@ -444,6 +444,7 @@ button {
       text-align: center;
       margin-left: 5%;
       margin-right: 5%;
+      margin-bottom: 140px;
   }
 
   .Abouttext h3 {
@@ -546,21 +547,40 @@ button {
 .Contacttext {
     margin-left: 5%;
     margin-right: 5%;
+    width: 70vw;
+    height: auto;
+    padding-bottom: 40px;
+    display: inline-table;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+
+.Contacttext h4 {
+    color: #4a7ac7;
+    font-weight: 600;
 }
 
 .Contacttitle {
     text-align: center;
+    display: block;
 }
-.Contacttext h3 {
+.Contacttitle h3 {
     color: #4F89E8;
     font-weight: 700;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 .Contactinput {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: inline-table;
     padding: 20px;
+    width: 30vw;
+    padding-left: 5vw;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.Divmap {
+    display: inline-table;
+    width: 30vw;
     background-color: aliceblue;
 }
