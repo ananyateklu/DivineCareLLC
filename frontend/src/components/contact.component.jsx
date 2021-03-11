@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Contactpic from "../assets/contactpic.jpg"
-import Gmap from "./googlemaps.component"
+// import Gmap from "./googlemaps.component"
 
 
 class contact extends Component {
@@ -26,9 +26,9 @@ class contact extends Component {
                         <input></input>
                         
                     </div>
-                    <div className="Divmap">
+                    {/* <div className="Divmap">
                     <Gmap/>
-                    </div>
+                    </div> */}
                 </div>
                 
                   
