@@ -9,7 +9,7 @@ export class MapContainer extends React.Component {
         width: '300px',
         height: '300px',
         borderRadius: '20px',
-        border: "solid 10px #7daaf3"
+        border: 'solid 10px #7daaf3'
       }
     return (
       <Map google={this.props.google} zoom={14} style={style} initialCenter={{lat: 44.71562073515013, lng: -93.24792898688428}}>
