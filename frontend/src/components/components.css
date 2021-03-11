@@ -538,7 +538,7 @@ button {
     width: 80vw;
     margin-left: 10vw;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 200px;
     background-color: white;
     margin-bottom: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
@@ -582,5 +582,38 @@ button {
 .Divmap {
     display: inline-table;
     width: 30vw;
+    height: 30vh;
     background-color: aliceblue;
 }
+
+
+.Location {
+    text-align: center;
+    padding: 30px;
+}
+
+.Location h3 {
+    color: #4F89E8;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Locationpics {
+    margin-top: 70px;
+    text-align: left;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Locationpics img {
+    width: 30vw;
+    display: inline;
+  
+    margin-bottom: 50px;
+    border: solid 10px #61a8fa;
+    border-radius: 20px;
+    
+}
+
