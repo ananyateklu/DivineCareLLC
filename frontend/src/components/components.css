@@ -198,6 +198,10 @@ h6 {
     margin-left: 7px;
 }
 
+.flex1 h6 {
+    font-size: medium;
+}
+
 .flex2 {
     width: 600px;
 }
@@ -266,7 +270,7 @@ h6 {
 
 .Homewelcome {
     text-align: center;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 230px;
     margin-bottom: 70px;
@@ -274,6 +278,7 @@ h6 {
 }
 .Homewelcome h6 {
     font-weight: 500;
+    font-size: medium;
 }
 .Homewelcome h3 {
     font-weight: 700;
@@ -321,7 +326,7 @@ h6 {
     width: 90px;
 }
 .Fatherof {
-    font-weight: 200;
+    font-weight: 300;
 }
 button {
     margin-left: 50px;
