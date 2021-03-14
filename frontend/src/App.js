@@ -25,7 +25,7 @@ function App() {
             <TransitionGroup>
               <CSSTransition key= {location.key} timeout={450} classNames="fade">
                 <Switch location= {location}>
-                  <Route path="/" exact component={Home} />
+                  <Route path="/DivineCareLLC" exact component={Home} />
                   <Route path="/contactus" exact component={Contactus} />
                   <Route path="/services" exact component={Services} />
                   <Route path="/aboutus" exact component={Aboutus} />
