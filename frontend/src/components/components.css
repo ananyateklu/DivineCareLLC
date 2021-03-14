@@ -6,7 +6,7 @@
 .Header {
     position: fixed;
     background-color: aliceblue;
-    height: 88px;
+    height: 99px;
     width: 100%;
     z-index: 3;
 }
@@ -14,7 +14,17 @@
 .Links {
     display: inline;
     float: right;
-    margin-top: 30px;
+    margin-top: 35px;
+}
+
+.Links a {
+    font-size: 0.91rem;
+    font-weight: 500;
+}
+
+.Links button{
+    border-radius: 5px;
+    
 }
 .Titlediv {
     margin-top: 10px;
@@ -42,12 +52,13 @@ a {
     margin-right: 5px;
     margin-left: 5px;
     text-decoration: none;
-    font-size: 13px;
+   
 }
 .linkon {
     background-color: #5D92E8;
     color: aliceblue;
-    padding-bottom: 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .linkoff {
     background-color: transparent;
@@ -538,7 +549,7 @@ button {
     width: 80vw;
     margin-left: 10vw;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 200px;
     background-color: white;
     margin-bottom: 40px;
     box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
@@ -582,5 +593,93 @@ button {
 .Divmap {
     display: inline-table;
     width: 30vw;
+    height: 30vh;
     background-color: aliceblue;
 }
+
+
+.Location {
+    text-align: center;
+    padding: 30px;
+    height: 150vh;
+}
+
+.Location h3 {
+    color: #4F89E8;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Locationpics {
+    margin-top: 70px;
+    text-align: left;
+    padding: 50px;
+    height: 100vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Location1 {
+    width: 100vh;
+    height: 900px;
+    clear: both;
+    display: table;
+}
+
+.Locationpic1 {
+    width: 38%;
+    float: left;
+
+}
+
+.Locationtext1 {
+    width: 60%;
+    height: 400px;
+    float: left;
+    
+}
+
+.Location2 {
+  width: 100vh;
+  display: table;
+  clear: both;
+}
+
+.Locationpic2 {
+    width: 38%;
+    float: left;
+
+}
+
+.Locationtext2 {
+    width: 60%;
+    height: 400px;
+    float: left;
+
+}
+
+
+
+.Locationtext1 h6 {
+    display: block;
+    width: 30vw;
+    color: #1656a0;
+    font-size: medium;
+    font-weight: 500;
+}
+.Locationtext2 h6 {
+    display: block;
+    width: 30vw;
+    color: #1656a0;
+    font-weight: 500;
+    font-size: medium;
+}
+.Locationpics img {
+    width: 400px;
+    margin-bottom: 50px;
+    border: solid 10px #b4d0f0;
+    border-radius: 20px;
+    
+}
+
