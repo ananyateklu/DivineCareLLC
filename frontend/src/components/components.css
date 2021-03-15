@@ -52,6 +52,76 @@ button {
 }
 /* CSS for Header component ends here */
 
+/* CSS for footer component starts here */
+.Pic1 {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.Footer {
+    background-color: #5D92E8;
+    padding-top: 10px;
+}
+.Footer img {
+    width: 230px;
+}
+.Flex-containerfooter {
+    display: flex;
+}
+.Flexfooter1 {
+    flex: 1;
+}
+.Flexfooter2 {
+    flex: 1;
+}
+.Footerbutton {
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 5px;
+
+}
+.Footer a {
+    padding: 7px;
+    color: aliceblue;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footerh3 {
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.Licence {
+    text-align: center;
+    background-color: #4F89E8;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.Licence h6 {
+    padding-top: 15px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.Copyright {
+    text-align: center;
+    background-color: #F1F7FF;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.Copyright h6 {
+    padding-top: 15px;
+    margin: 0;
+    font-weight: 500;
+    color: #2169bb;
+}
+/* CSS for footer component ends here */
+
+
 /* CSS for Home component starts here */
 .Titlediv {
     margin-top: 10px;
@@ -348,75 +418,6 @@ h6 {
 
 /* CSS for home component ends here */
 
-/* CSS for footer component starts here */
-.Pic1 {
-    width: 100%;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-.Footer {
-    background-color: #5D92E8;
-    padding-top: 10px;
-}
-.Footer img {
-    width: 230px;
-}
-.Flex-containerfooter {
-    display: flex;
-}
-.Flexfooter1 {
-    flex: 1;
-}
-.Flexfooter2 {
-    flex: 1;
-}
-.Footerbutton {
-    margin: 0;
-    margin-top: 7px;
-    margin-left: 5px;
-
-}
-.Footer a {
-    padding: 7px;
-    color: aliceblue;
-    display: block;
-    font-weight: 600;
-    text-decoration: none;
-}
-.footerh3 {
-    font-size: 15px;
-    color: aliceblue;
-    font-weight: 500;
-    margin-left: 70px;
-}
-.Licence {
-    text-align: center;
-    background-color: #4F89E8;
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    padding-bottom: 10px;
-}
-.Licence h6 {
-    padding-top: 15px;
-    font-weight: 600;
-    color: aliceblue;
-}
-.Copyright {
-    text-align: center;
-    background-color: #F1F7FF;
-    width: 100%;
-    height: 50px;
-    margin: 0;
-}
-.Copyright h6 {
-    padding-top: 15px;
-    margin: 0;
-    font-weight: 500;
-    color: #2169bb;
-}
-/* CSS for footer component ends here */
-
   
   /* .image {
     width: 100%;
@@ -476,12 +477,17 @@ h6 {
       margin-right: 5%;
       margin-bottom: 140px;
   }
+  
+  .Abouttext img {
+      width: 100px;
+      margin-top: 30px;
+  }
 
   .Abouttext h3 {
       color: #4F89E8;
       font-weight: 700;
       margin-bottom: 30px;
-      margin-top: 70px;
+      margin-top: 40px;
   }
 
   .Abouttext h6 {
@@ -515,13 +521,21 @@ h6 {
 }
 .Servicestitle {
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.Servicestitle img {
+    width: 100px;
+    margin-top: 30px;
+  
 }
 
 .Servicestext h3 {
     color: #4F89E8;
     font-weight: 700;
     margin-bottom: 30px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .Servicestext h4 {
@@ -605,6 +619,13 @@ h6 {
     text-align: center;
     display: block;
 }
+
+.Contacttitle img {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
 .Contacttitle h3 {
     color: #4F89E8;
     font-weight: 700;
@@ -619,6 +640,17 @@ h6 {
     background-color: aliceblue;
     border-radius: 20px;
 }
+
+.Contactinfo {
+    display: inline-block;
+}
+.Contactinfo h4 {
+    color: #4F89E8;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
 .Divmap {
     display: inline-table;
     width: 30vw;
