@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Aboutpic from "../assets/aboutpic.jpg"
+import Aboutpic from "../assets/about.jpg"
 
 export default class about extends Component {
     render() {
@@ -9,6 +9,7 @@ export default class about extends Component {
                     <img src= {Aboutpic} alt="Homecare"/>
                 </div>
                 <div className="Abouttext">
+                    <img alt="about" src="https://img.icons8.com/dusk/128/000000/about.png"/>
                     <h3>ABOUT DIVINE CARE LLC</h3>
                     <h6>Divine Care LLC is a care provider licensed with the state of Minnesota. 
                         We have a staff of highly trained nurses, home-health aides and certified 
