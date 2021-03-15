@@ -479,7 +479,7 @@ h6 {
   }
   
   .Abouttext img {
-      width: 100px;
+      width: 70px;
       margin-top: 30px;
   }
 
@@ -487,7 +487,6 @@ h6 {
       color: #4F89E8;
       font-weight: 700;
       margin-bottom: 30px;
-      margin-top: 40px;
   }
 
   .Abouttext h6 {
@@ -526,7 +525,7 @@ h6 {
 }
 
 .Servicestitle img {
-    width: 100px;
+    width: 70px;
     margin-top: 30px;
   
 }
@@ -535,7 +534,7 @@ h6 {
     color: #4F89E8;
     font-weight: 700;
     margin-bottom: 30px;
-    margin-top: 30px;
+
 }
 
 .Servicestext h4 {
@@ -617,12 +616,12 @@ h6 {
 
 .Contacttitle {
     text-align: center;
-    display: block;
+    margin-bottom: 40px;
+   
 }
 
 .Contacttitle img {
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 70px;
     margin-top: 40px;
 }
 
@@ -630,7 +629,7 @@ h6 {
     color: #4F89E8;
     font-weight: 700;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .Contactinput {
     display: inline-table;
@@ -642,12 +641,22 @@ h6 {
 }
 
 .Contactinfo {
-    display: inline-block;
+    display: inline-table;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 15vw;
 }
 .Contactinfo h4 {
     color: #4F89E8;
     font-weight: 600;
-    font-size: large;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.Contactinfo h6 {
+    color: #1656a0;
+    font-weight: 600;
+    font-size: medium;
     margin-bottom: 20px;
 }
 
