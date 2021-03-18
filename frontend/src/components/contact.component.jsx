@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Contactpic from "../assets/contactpic3.jpg";
 import Gmap from "./googlemaps.component";
-import emailjs from "emailjs-com";
 
 class contact extends Component {
-
+ 
 //sendEmail creates a call to email js to use it for send information straight to email
 sendEmail(e) {
   e.preventDefault();
@@ -16,6 +15,7 @@ sendEmail(e) {
           console.log(error.text);
       });
 }
+
 
   render() {
     return (
@@ -61,28 +61,22 @@ sendEmail(e) {
         </div>
         <div className="Contacttext">
           <div className="Contactinput">
-            <form onSubmit={this.sendEmail}>
-              <div className="Nameinput">
-                <h4>Name</h4>
-                <input name="Name"></input>
-              </div>
-              <div className="Phoneinput">
-                <h4>Phone</h4>
-                <input name="Phone"></input>
-              </div>
-              <div className="Emailinput">
-                <h4>Email</h4>
-                <input name="Email"></input>
-              </div>
-              <div className="Lastinput">
-                <h4>Comments/Questions</h4>
-                <textarea name="Comments"></textarea>
-                <div className="Submitbuttondiv">
-                  <input type="submit" className="SubmitBtn" value="Send Message"></input>
-                </div>
-                
-              </div>
-            </form>
+            <div className="Nameinput">
+              <h4>Name</h4>
+              <input></input>
+            </div>
+            <div className="Phoneinput">
+              <h4>Phone</h4>
+              <input></input>
+            </div>
+            <div className="Emailinput">
+              <h4>Email</h4>
+              <input></input>
+            </div>
+            <div className="Lastinput">
+              <h4>Comments/Questions</h4>
+              <textarea></textarea>
+            </div>
           </div>
         </div>
         <div className="Divmap">
