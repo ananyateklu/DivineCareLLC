@@ -5,6 +5,7 @@ import emailjs from "emailjs-com";
 
 class contact extends Component {
 
+//sendEmail creates a call to email js to use it for send information straight to email
 sendEmail(e) {
   e.preventDefault();
 
@@ -85,6 +86,7 @@ sendEmail(e) {
           </div>
         </div>
         <div className="Divmap">
+          {/* Google maps */}
           <Gmap />
         </div>
       </div>
