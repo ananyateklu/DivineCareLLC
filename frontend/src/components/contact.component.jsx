@@ -49,19 +49,19 @@ class contact extends Component {
           <div className="Contactinput">
             <div className="Nameinput">
               <h4>Name</h4>
-              <input></input>
+              <input name="Name"></input>
             </div>
             <div className="Phoneinput">
               <h4>Phone</h4>
-              <input></input>
+              <input name="Phone"></input>
             </div>
             <div className="Emailinput">
               <h4>Email</h4>
-              <input></input>
+              <input name="Email"></input>
             </div>
             <div className="Lastinput">
               <h4>Comments/Questions</h4>
-              <textarea></textarea>
+              <textarea name="Comments/Questions"></textarea>
             </div>
           </div>
         </div>
