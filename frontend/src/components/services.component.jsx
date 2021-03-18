@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Servicespic from "../assets/servicespic.jpg";
+import Servicespic from "../assets/contactpic22.jpg";
 
 export default class services extends Component {
   render() {
@@ -10,6 +10,7 @@ export default class services extends Component {
         </div>
         <div className="Servicestext">
           <div className="Servicestitle">
+            <img alt="services" src="https://img.icons8.com/dusk/100/000000/treatment-plan.png"/>
             <h3>SERVICES PROVIDED BY DIVINE CARE LLC</h3>
           </div>
           <h4>HOME CARE SERVICES</h4>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Logowhite from '../assets/divinelogowhite.png'
+import Logowhite from '../assets/divinecarelogo1.png'
 import { Link } from 'react-router-dom';
 
 export default class footer extends Component {
