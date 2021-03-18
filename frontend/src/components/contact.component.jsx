@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Contactpic from "../assets/contactpic3.jpg";
 import Gmap from "./googlemaps.component";
+import emailjs from "emailjs-com";
 
 class contact extends Component {
  
