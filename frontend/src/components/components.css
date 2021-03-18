@@ -675,6 +675,20 @@ h6 {
     z-index: 1000;
 }
 
+.Contactinput textarea {
+    height: 155px;
+    width: 75%;
+    padding-left: 7px;
+    margin: 0;
+    padding: 2px;
+    border: none;
+    z-index: -1;
+    box-shadow: 0px 0px 0px 1px  rgba(21, 69, 124, 0.3);
+    border-radius: 3px;
+    display: absolute;
+    z-index: 1000;
+}
+
 .Lastinput input {
     height: 140px;
 }
