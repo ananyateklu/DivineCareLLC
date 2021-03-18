@@ -3,6 +3,20 @@ import Contactpic from "../assets/contactpic3.jpg";
 import Gmap from "./googlemaps.component";
 
 class contact extends Component {
+ 
+//sendEmail creates a call to email js to use it for send information straight to email
+sendEmail(e) {
+  e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+}
+
+
   render() {
     return (
       <div className="Contact">
@@ -66,6 +80,7 @@ class contact extends Component {
           </div>
         </div>
         <div className="Divmap">
+          {/* Google maps */}
           <Gmap />
         </div>
       </div>
