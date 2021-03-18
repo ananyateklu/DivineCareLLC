@@ -1,8 +1,21 @@
 import React, { Component } from "react";
 import Contactpic from "../assets/contactpic3.jpg";
 import Gmap from "./googlemaps.component";
+import emailjs from "emailjs-com";
 
 class contact extends Component {
+
+sendEmail(e) {
+  e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+}
+
   render() {
     return (
       <div className="Contact">
@@ -47,22 +60,28 @@ class contact extends Component {
         </div>
         <div className="Contacttext">
           <div className="Contactinput">
-            <div className="Nameinput">
-              <h4>Name</h4>
-              <input name="Name"></input>
-            </div>
-            <div className="Phoneinput">
-              <h4>Phone</h4>
-              <input name="Phone"></input>
-            </div>
-            <div className="Emailinput">
-              <h4>Email</h4>
-              <input name="Email"></input>
-            </div>
-            <div className="Lastinput">
-              <h4>Comments/Questions</h4>
-              <textarea name="Comments/Questions"></textarea>
-            </div>
+            <form onSubmit={this.sendEmail}>
+              <div className="Nameinput">
+                <h4>Name</h4>
+                <input name="Name"></input>
+              </div>
+              <div className="Phoneinput">
+                <h4>Phone</h4>
+                <input name="Phone"></input>
+              </div>
+              <div className="Emailinput">
+                <h4>Email</h4>
+                <input name="Email"></input>
+              </div>
+              <div className="Lastinput">
+                <h4>Comments/Questions</h4>
+                <textarea name="Comments"></textarea>
+                <div className="Submitbuttondiv">
+                  <input type="submit" className="SubmitBtn" value="Send Message"></input>
+                </div>
+                
+              </div>
+            </form>
           </div>
         </div>
         <div className="Divmap">
