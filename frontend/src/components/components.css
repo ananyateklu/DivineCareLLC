@@ -683,26 +683,14 @@ h6 {
     padding: 2px;
     border: none;
     z-index: -1;
-    box-shadow: 0px 0px 0px 1px  rgba(42, 104, 175, 0.3);
+    box-shadow: 0px 0px 0px 1px  rgba(21, 69, 124, 0.3);
     border-radius: 3px;
     display: absolute;
     z-index: 1000;
 }
 
 .Lastinput input {
-    height: 35px;
-    width: 170px;
-    margin-top: 15px;
-}
-
-.Lastinput input:active {
-    height: 35px;
-    width: 170px;
-    margin-top: 10px;
-    background-color: aliceblue;
-    color: #4a7ac7;
-    border: none;
-    box-shadow: 0px 0px 0px 1px  rgba(21, 69, 124, 0.3);
+    height: 140px;
 }
 
 .Contactinfo {
@@ -723,16 +711,6 @@ h6 {
     font-weight: 600;
     font-size: medium;
     margin-bottom: 20px;
-}
-.SubmitBtn {
-    margin-left: 50px;
-    margin-right: 80px;
-    background-color: #5893d4;
-    color: white;
-    border: 3px solid #D9D9D9;
-    width: 50px;
-    height: 20px;
-    border: none;
 }
 
 .Divmap {
