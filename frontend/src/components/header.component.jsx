@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../assets/divinelogo.png';
+import logo from '../assets/divinelogom.png';
 import { Link } from 'react-router-dom';
 import './components.css';
 export default class header extends Component {
