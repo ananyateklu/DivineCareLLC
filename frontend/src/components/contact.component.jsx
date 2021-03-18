@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Contactpic from "../assets/contactpic3.jpg";
-// import Gmap from "./googlemaps.component"
+import Gmap from "./googlemaps.component";
 
 class contact extends Component {
   render() {
@@ -11,6 +11,7 @@ class contact extends Component {
         </div>
         <div className="Contacttitle">
           <h3>CONTACT US</h3>
+          <hr />
           <div className="Contactinfo">
             <img
               alt="contactpic1"
@@ -46,18 +47,26 @@ class contact extends Component {
         </div>
         <div className="Contacttext">
           <div className="Contactinput">
-            <h4>Name</h4>
-            <input></input>
-            <h4>Phone</h4>
-            <input></input>
-            <h4>Email</h4>
-            <input></input>
-            <h4>Message</h4>
-            <input></input>
+            <div className="Nameinput">
+              <h4>Name</h4>
+              <input></input>
+            </div>
+            <div className="Phoneinput">
+              <h4>Phone</h4>
+              <input></input>
+            </div>
+            <div className="Emailinput">
+              <h4>Email</h4>
+              <input></input>
+            </div>
+            <div className="Lastinput">
+              <h4>Comments/Questions</h4>
+              <textarea></textarea>
+            </div>
           </div>
-          {/* <div className="Divmap">
-                    <Gmap/>
-                    </div> */}
+        </div>
+        <div className="Divmap">
+          <Gmap />
         </div>
       </div>
     );
