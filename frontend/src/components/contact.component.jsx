@@ -76,7 +76,10 @@ sendEmail(e) {
             </div>
             <div className="Lastinput">
               <h4>Comments/Questions</h4>
-              <textarea></textarea>
+              <textarea name="Comments"></textarea>
+                <div className="Submitbuttondiv">
+                  <input type="submit" className="SubmitBtn" value="Send Message"></input>
+                </div>
             </div>
           </div>
         </div>
