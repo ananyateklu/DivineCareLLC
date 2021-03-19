@@ -11,7 +11,7 @@ export default class header extends Component {
             islocation: false,
         }
     componentDidMount() {
-        this.setState({ishome: true})
+        this.setState({ishome: !this.state.ishome})
     }
 
     render() {
