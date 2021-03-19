@@ -6,6 +6,10 @@ import { SliderData } from "./SliderData";
 import Licence1 from "../assets/Licence1.png";
 
 export default class home extends Component {
+  
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="Home">

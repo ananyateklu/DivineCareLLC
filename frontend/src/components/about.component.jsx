@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Aboutpic from "../assets/about.jpg";
 
 export default class about extends Component {
+  
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     return (
       <div className="About">

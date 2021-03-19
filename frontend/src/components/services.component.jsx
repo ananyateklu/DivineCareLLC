@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import Servicespic from "../assets/contactpic22.jpg";
 
 export default class services extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <div className="Services">

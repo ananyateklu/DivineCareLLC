@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import Applevalley from "../assets/applevalley.jpg";
 import Burnsville from "../assets/burnsville.jpg";
 export default class location extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <div className="Location">
