@@ -52,7 +52,7 @@ class contact extends Component {
               src="https://img.icons8.com/dusk/100/000000/email.png"
             />
             <h4>Email</h4>
-            <h6>fzewdie@divincaremn.com</h6>
+            <h6>info@divinecaremn.org</h6>
           </div>
           <div className="Contactinfo">
             <img
