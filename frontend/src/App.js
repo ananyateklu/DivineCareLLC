@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import Header from "./components/header.component";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contactus from "./components/contact.component";
@@ -11,6 +12,11 @@ import "./App.css"
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="App">
       <Router>
