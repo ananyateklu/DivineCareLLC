@@ -17,7 +17,7 @@ export default class footer extends Component {
                         <h3 className="footerh3">Email: fzewdie@divincaremn.com</h3>
                     </div>
                     <div className="Flexfooter2">
-                    <Link to="/DivineCareLLC">HOME</Link>
+                    <Link to="/">HOME</Link>
                     <Link to="/aboutus">ABOUT US</Link>
                     <Link to="/services">OUR SERVICES</Link>
                     <Link to="/contactus">CONTACT US</Link>
