@@ -233,6 +233,9 @@ h6 {
 #radio3:checked ~ .first {
     margin-left: -66.66%;
 }
+#radio4:checked ~ .first {
+    margin-left: -100%;
+}
 #fradio {
     background-color: #52A2FF;
 }
