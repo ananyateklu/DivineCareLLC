@@ -1,432 +1,422 @@
-
 /* CSS for Header component starts here */
 .Logo {
-    width: 6.5cm;
-    display: inline;
+  width: 6.5cm;
+  display: inline;
+}
+
+.Burger {
+  display: none;
+}
+.Burgerstuff {
+    display: none;
 }
 
 .Header {
-    position: fixed;
-    background-color: aliceblue;
-    height: 99px;
-    width: 100%;
-    z-index: 3;
+  position: fixed;
+  background-color: aliceblue;
+  height: 99px;
+  width: 100%;
+  z-index: 3;
 }
 
 .Links {
-    display: inline;
-    float: right;
-    margin-top: 35px;
+  display: inline;
+  float: right;
+  margin-top: 35px;
 }
 
 .Links a {
-    font-size: 0.91rem;
-    font-weight: 500;
+  font-size: 0.91rem;
+  font-weight: 500;
 }
 
-.Links button{
-    border-radius: 5px;
-    width: 150px;
-    
+.Links button {
+  border-radius: 5px;
+  width: 150px;
 }
 
 .linkon {
-    background-color: #5893d4;
-    color: aliceblue;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  background-color: #5893d4;
+  color: aliceblue;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .linkoff {
-    background-color: transparent;
-    color: #1c77dfdc;
+  background-color: transparent;
+  color: #1c77dfdc;
 }
 
 button {
-    margin-left: 50px;
-    margin-right: 80px;
-    background-color: #5893d4;
-    color: white;
-    border: 3px solid #D9D9D9;
-    width: 110px;
-    height: 30px;
+  margin-left: 50px;
+  margin-right: 80px;
+  background-color: #5893d4;
+  color: white;
+  border: 3px solid #d9d9d9;
+  width: 110px;
+  height: 30px;
 }
 /* CSS for Header component ends here */
 
 /* CSS for footer component starts here */
 .Pic1 {
-    width: 100%;
-    margin-top: 0px;
-    padding-top: 0px;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 .Footer {
-    background-color: #5893d4;
-    padding-top: 10px;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    z-index: 3;
+  background-color: #5893d4;
+  padding-top: 10px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  z-index: 3;
 }
 .Footer img {
-    width: 230px;
+  width: 230px;
 }
 .Flex-containerfooter {
-    display: flex;
+  display: flex;
 }
 .Flexfooter1 {
-    flex: 1;
+  flex: 1;
 }
 .Flexfooter2 {
-    flex: 1;
+  flex: 1;
 }
 .Footerbutton {
-    margin: 0;
-    margin-top: 7px;
-    margin-left: 5px;
-
+  margin: 0;
+  margin-top: 7px;
+  margin-left: 5px;
 }
 .Footer a {
-    padding: 7px;
-    color: aliceblue;
-    display: block;
-    font-weight: 600;
-    text-decoration: none;
+  padding: 7px;
+  color: aliceblue;
+  display: block;
+  font-weight: 600;
+  text-decoration: none;
 }
 .footerh3 {
-    font-size: 15px;
-    color: aliceblue;
-    font-weight: 500;
-    margin-left: 70px;
+  font-size: 15px;
+  color: aliceblue;
+  font-weight: 500;
+  margin-left: 70px;
 }
 .Licence {
-    text-align: center;
-    background-color: #548eccc4;
-    width: 100%;
-    height: 50px;
-    margin: 0;
-    padding-bottom: 10px;
+  text-align: center;
+  background-color: #548eccc4;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding-bottom: 10px;
 }
 .Licence h6 {
-    padding-top: 15px;
-    font-weight: 600;
-    color: aliceblue;
+  padding-top: 15px;
+  font-weight: 600;
+  color: aliceblue;
 }
 .Copyright {
-    text-align: center;
-    background-color: #F1F7FF;
-    width: 100%;
-    height: 50px;
-    margin: 0;
+  text-align: center;
+  background-color: #f1f7ff;
+  width: 100%;
+  height: 50px;
+  margin: 0;
 }
 .Copyright h6 {
-    padding-top: 15px;
-    margin: 0;
-    font-weight: 500;
-    color: #2169bb;
+  padding-top: 15px;
+  margin: 0;
+  font-weight: 500;
+  color: #2169bb;
 }
 /* CSS for footer component ends here */
 
-
 /* CSS for Home component starts here */
 .Titlediv {
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 15px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 .Title {
-    display: inline;
+  display: inline;
 }
 .Title2 {
-    color: #5893d4;
-    display: inline;
+  color: #5893d4;
+  display: inline;
 }
 
 .Licence1 {
-    width: 300px;
-    margin-top: 40px;
+  width: 300px;
+  margin-top: 40px;
 }
 
 a {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 37px;
-    padding-bottom: 30px;
-    margin-right: 5px;
-    margin-left: 5px;
-    text-decoration: none;
-   
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 37px;
+  padding-bottom: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
 }
 /* Default value for h3 and h6 */
 h3 {
-    font-size: 27px;
+  font-size: 27px;
 }
 h6 {
-    font-size: 15px;
-    margin: 10px;
+  font-size: 15px;
+  margin: 10px;
 }
 .imgbody {
-    margin: 0;
-    padding: 0;
-    height: 217px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  margin: 0;
+  padding: 0;
+  height: 217px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slider {
-    width: 100vw;
-    margin-top: 220px;
-    height: 435px;
-    overflow: hidden;
+  width: 100vw;
+  margin-top: 220px;
+  height: 435px;
+  overflow: hidden;
+}
+.slides {
+  width: 300%;
+  height: 500px;
+  display: flex;
+}
+.slide img {
+  width: 100vw;
+}
+.slides input {
+  display: none;
+}
 
-  }
-  .slides {
-      width: 300%;
-      height: 500px;
-      display: flex;
-    
-  }
-  .slide img {
-      width: 100vw;
-  }
-  .slides input {
-      display: none;
-  }
+.slide {
+  width: 33.33%;
+  transition: 2s;
+}
+.slide.first {
+  background-attachment: red;
+}
 
-  .slide {
-      width: 33.33%;
-      transition: 2s;
-  }
-  .slide.first {
-      background-attachment: red;
-  }
-
-  .navigation-manual {
-      position: absolute;
-      width: 98vw;
-      margin-top: 400px;
-      display: flex;
-      justify-content: center;
-
-  }
+.navigation-manual {
+  position: absolute;
+  width: 98vw;
+  margin-top: 400px;
+  display: flex;
+  justify-content: center;
+}
 .manual-btn {
-    border: 2px solid #52A2FF;
-    padding:  5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
+  border: 2px solid #52a2ff;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .manual-btn:hover {
-    background-color: #52A2FF;
+  background-color: #52a2ff;
 }
 
 #radio1:checked ~ .first {
-    margin-left: 0;
-} 
+  margin-left: 0;
+}
 #radio2:checked ~ .first {
-    margin-left: -33.33%;
+  margin-left: -33.33%;
 }
 #radio3:checked ~ .first {
-    margin-left: -66.66%;
+  margin-left: -66.66%;
 }
 #radio4:checked ~ .first {
-    margin-left: -100%;
+  margin-left: -100%;
 }
 #fradio {
-    background-color: #52A2FF;
+  background-color: #52a2ff;
 }
 
 .navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 98vw;
-    justify-content: center;
-    margin-top: 400px;
+  position: absolute;
+  display: flex;
+  width: 98vw;
+  justify-content: center;
+  margin-top: 400px;
 }
 
 .navigation-auto div {
-    border: 2px solid #52A2FF ;
-    padding: 5px;
-    border-radius: 10px;
- 
-
+  border: 2px solid #52a2ff;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .navigation-auto div:not(:last-child) {
-    margin-right: 40px;
-
+  margin-right: 40px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background-color: #52A2FF;
+  background-color: #52a2ff;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background-color: #52A2FF;
+  background-color: #52a2ff;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background-color: #52A2FF;
+  background-color: #52a2ff;
 }
-
 
 .flex-containerhome {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .flex1 {
-    flex: 1;
-    margin-right: 0px;
-   
+  flex: 1;
+  margin-right: 0px;
+  width: 60vw;
 }
 
 .flex1in {
-    width: 400px;
-    margin-left: 100px;
+  width: 400px;
+  margin-left: 100px;
 }
 
 .flex1 h3 {
-    font-size: 25px;
-    margin-left: 7px;
+  font-size: 25px;
+  margin-left: 7px;
 }
 
 .flex1 h6 {
-    font-size: medium;
+  font-size: medium;
 }
 
 .flex2 {
-    width: 600px;
+  width: 40vw;
 }
 
 .flex2 h3 {
-    font-size: 25px;
-    margin-left: 7px;
+  font-size: 25px;
+  margin-left: 7px;
 }
 
 .flex2in {
-   background-color: aliceblue;
-   opacity: 0.7;
-   padding-top: 20px;
-   padding-bottom: 30px;
-   padding-left: 20px;
-   border-radius: 200px;
-   width: 460px;
+  background-color: aliceblue;
+  opacity: 0.7;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  border-radius: 200px;
+  width: 460px;
 }
 
 .flex2 img {
-    background-color: #52A2FF;
-    color: aliceblue;
-    border-radius: 15px;
-    width: 64px;
-    padding: 5px;
+  background-color: #52a2ff;
+  color: aliceblue;
+  border-radius: 15px;
+  width: 64px;
+  padding: 5px;
 }
 .iconI {
-    margin-left: 180px;
-   
+  margin-left: 180px;
 }
 .iconH {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .iconS {
-    color: white;
+  color: white;
 }
 .iconN {
-    margin-right: 110px;
-    margin-left: 90px;
+  margin-right: 110px;
+  margin-left: 90px;
 }
 .iconT {
-    color: white;
+  color: white;
 }
 .Display h3 {
-    display: inline;
+  display: inline;
 }
 .Display {
-    display: inline;
-    padding-left: 35px;
-    padding-right: 35px;
+  display: inline;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .firsticon {
-    display: block;
-    margin-bottom: 5vw;
-    width:auto;
+  display: block;
+  margin-bottom: 5vw;
+  width: auto;
 }
 .secondicons {
-    margin-bottom: 7vw;
-    width:auto;
+  margin-bottom: 7vw;
+  width: auto;
 }
 .thirdicons {
-    width:auto;
-    margin-bottom: 2vw;
+  width: auto;
+  margin-bottom: 2vw;
 }
 
 .Homewelcome {
-    text-align: center;
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 230px;
-    margin-bottom: 70px;
-    
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 230px;
+  margin-bottom: 70px;
 }
 .Homewelcome h6 {
-    font-weight: 500;
-    font-size: medium;
+  font-weight: 500;
+  font-size: medium;
 }
 .Homewelcome h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 .Homeservices {
-    height: 85vh;
-    text-align: left;
-    overflow: hidden;
-    
+  height: 85vh;
+  text-align: left;
+  overflow: hidden;
 }
 .Homeservices h6 {
-    font-weight: 500;
+  font-weight: 500;
 }
 .Homeservices h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 .Homeskillpic {
-    width: 100%;
-    position: relative;
-    float: left;
-    margin: -5px -10px -10px -5px;
-    filter: blur(16px);
+  width: 100%;
+  position: relative;
+  float: left;
+  margin: -5px -10px -10px -5px;
+  filter: blur(16px);
 }
 .Homeskilltext {
-    position: absolute;
-    z-index: 2;
-    width: 90%;
-    left: 70px;
-    margin-top: 70px;
+  position: absolute;
+  z-index: 2;
+  width: 90%;
+  left: 70px;
+  margin-top: 70px;
 }
 .Testimonials {
-    padding-bottom: 30px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+  padding-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .Testimonials h6 {
-    font-weight: 500;
+  font-weight: 500;
 }
 .Testimonialtext {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 .Quotepic {
-    width: 90px;
+  width: 90px;
 }
 .Fatherof {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 /* CSS for home component ends here */
 
-  
-  /* .image {
+/* .image {
     width: 100%;
   }
   
@@ -451,8 +441,8 @@ h6 {
     cursor: pointer;
     user-select: none;
   } */
-  
-  /* .slide {
+
+/* .slide {
     opacity: 0;
     transition-duration: 1s ease;
   }
@@ -464,119 +454,115 @@ h6 {
   } */
 
 /* CSS for about page starts here */
-  .About {
-      width: 80vw;
-      margin-left: 10vw;
-      height: auto;
-      padding-bottom: 30px;
-      background-color: white;
-      margin-bottom: 40px;
-      box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
-  }
-
-  .Aboutpic img {
-    width: 100%;
+.About {
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  padding-bottom: 30px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-  .Abouttext {
-      text-align: center;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-bottom: 140px;
-  }
-  
-  .Abouttext img {
-      width: 70px;
-      margin-top: 15px;
-  }
+.Aboutpic img {
+  width: 100%;
+}
 
-  .Abouttext h3 {
-      color: #4F89E8;
-      font-weight: 700;
-      margin-bottom: 30px;
-  }
+.Abouttext {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 140px;
+}
 
-  .Abouttext h6 {
-      color: #1656a0;
-      font-weight: 500;
-  }
+.Abouttext img {
+  width: 70px;
+  margin-top: 15px;
+}
+
+.Abouttext h3 {
+  color: #4f89e8;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.Abouttext h6 {
+  color: #1656a0;
+  font-weight: 500;
+}
 
 /* CSS for about page ends here */
 
 /* CSS for services page starts here */
 
-
-
 .Services {
-    width: 80vw;
-    margin-left: 10vw;
-    height: auto;
-    padding-bottom: 40px;
-    background-color: white;
-    margin-bottom: 50px;
-    box-shadow: 0 0 5px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  padding-bottom: 40px;
+  background-color: white;
+  margin-bottom: 50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .Servicespic img {
-    width: 100%;
+  width: 100%;
 }
 
 .Servicestext {
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .Servicestitle {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .Servicestitle img {
-    width: 70px;
-    margin-top: 15px;
-  
+  width: 70px;
+  margin-top: 15px;
 }
 
 .Servicestext h3 {
-    color: #4F89E8;
-    font-weight: 700;
-    margin-bottom: 10px;
-
+  color: #4f89e8;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .Servicestext h4 {
-    color: #4F89E8;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 70px;
-    font-size: large;
+  color: #4f89e8;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  font-size: large;
 }
 
 .Servicestext li {
-    color: #1656a0;
-    font-weight: 500;
-    width: 90%;
-    list-style-type: circle;
+  color: #1656a0;
+  font-weight: 500;
+  width: 90%;
+  list-style-type: circle;
 }
 
 .Homeservices1 {
-    width: 50%;
-    display: inline-table;
+  width: 50%;
+  display: inline-table;
 }
 
 .Homeservices2 {
-    width: 50%;
-    display: inline-table;
+  width: 50%;
+  display: inline-table;
 }
 
 .Payment {
-    width: 50%;
-    display: inline-table;
+  width: 50%;
+  display: inline-table;
 }
 
 .Agegroup {
-    width: 50%;
-    display: inline-table;
+  width: 50%;
+  display: inline-table;
 }
 
 /* CSS for services page ends here */
@@ -584,185 +570,180 @@ h6 {
 /* CSS for contact us page starts here */
 
 .Contactpic {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .Contactpic img {
-    width: 100%;
-    height: 300px;
-    opacity: 0.8;
-    filter: blur(3px);
-    margin: -5px -10px -10px 0px;
-
+  width: 100%;
+  height: 300px;
+  opacity: 0.8;
+  filter: blur(3px);
+  margin: -5px -10px -10px 0px;
 }
 .Contact {
-    position: relative;
-    width: 80vw;
-    margin-left: 10vw;
-    height: auto;
-    padding-bottom: 200px;
-    background-color: white;
-    margin-bottom: 40px;
-    z-index: 2;
-    box-shadow: 0 0 10px rgba(0,0,0,.09), 2px 2px 5px rgba(0,0,0,.1);
+  position: relative;
+  width: 80vw;
+  margin-left: 10vw;
+  height: auto;
+  padding-bottom: 200px;
+  background-color: white;
+  margin-bottom: 40px;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .Contacttext {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 400px;
-    height: auto;
-    z-index: -3;
-    padding-bottom: 40px;
-    
-    
-
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 400px;
+  height: auto;
+  z-index: -3;
+  padding-bottom: 40px;
 }
 
 .Contacttext h4 {
-    color: #4a7ac7;
-    font-weight: 600;
+  color: #4a7ac7;
+  font-weight: 600;
 }
 
 .Contacttitle {
-    text-align: center;
-    margin-bottom: 40px;
-   
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .Contacttitle hr {
-    width: 160px;
-    padding: 0;
-    margin: auto;
-    border: none;
-    border: 1.3px dashed #4F89E8;
-     
-
-
+  width: 160px;
+  padding: 0;
+  margin: auto;
+  border: none;
+  border: 1.3px dashed #4f89e8;
 }
 
 .Contacttitle img {
-    width: 70px;
-    margin-top: 40px;
+  width: 70px;
+  margin-top: 40px;
 }
 
 .Contacttitle h3 {
-    color: #4F89E8;
-    font-weight: 700;
-    margin-bottom: 2px;
-    margin-top: 50px;
+  color: #4f89e8;
+  font-weight: 700;
+  margin-bottom: 2px;
+  margin-top: 50px;
 }
 .Contactinput {
-    display: inline-table;
-    padding: 20px;
-    width: 400px;
-    padding-left: 5vw;
-    border-radius: 20px;
+  display: inline-table;
+  padding: 20px;
+  width: 400px;
+  padding-left: 5vw;
+  border-radius: 20px;
 }
 
 .Contactinput h4 {
-   padding: 0;
-   margin-bottom: 5px;
+  padding: 0;
+  margin-bottom: 5px;
 }
 
 .Contactinput input {
-    height: 27px;
-    width: 75%;
-    padding-left: 7px;
-    margin: 0;
-    padding: 2px;
-    border: none;
-    z-index: -1;
-    box-shadow: 0px 0px 0px 1px  rgba(21, 69, 124, 0.3);
-    border-radius: 3px;
-    display: absolute;
-    z-index: 1000;
+  height: 27px;
+  width: 75%;
+  padding-left: 7px;
+  margin: 0;
+  padding: 2px;
+  border: none;
+  z-index: -1;
+  box-shadow: 0px 0px 0px 1px rgba(21, 69, 124, 0.3);
+  border-radius: 3px;
+  display: absolute;
+  z-index: 1000;
 }
 
 .Contactinput textarea {
-    height: 155px;
-    width: 75%;
-    padding-left: 7px;
-    margin: 0;
-    padding: 2px;
-    border: none;
-    z-index: -1;
-    box-shadow: 0px 0px 0px 1px  rgba(42, 104, 175, 0.3);
-    border-radius: 3px;
-    display: absolute;
-    z-index: 1000;
+  height: 155px;
+  width: 75%;
+  padding-left: 7px;
+  margin: 0;
+  padding: 2px;
+  border: none;
+  z-index: -1;
+  box-shadow: 0px 0px 0px 1px rgba(42, 104, 175, 0.3);
+  border-radius: 3px;
+  display: absolute;
+  z-index: 1000;
 }
 
 .Lastinput input {
-    height: 35px;
-    width: 170px;
-    margin-top: 15px;
+  height: 35px;
+  width: 170px;
+  margin-top: 15px;
 }
 
 .Lastinput input:active {
-    height: 35px;
-    width: 170px;
-    margin-top: 10px;
-    background-color: aliceblue;
-    color: #4a7ac7;
-    border: none;
-    box-shadow: 0px 0px 0px 1px  rgba(21, 69, 124, 0.3);
+  height: 35px;
+  width: 170px;
+  margin-top: 10px;
+  background-color: aliceblue;
+  color: #4a7ac7;
+  border: none;
+  box-shadow: 0px 0px 0px 1px rgba(20, 83, 155, 0.3);
 }
 
 .Contactinfo {
-    display: inline-table;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 200px;
+  display: inline-table;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
 }
 .Contactinfo h4 {
-    color: #4F89E8;
-    font-weight: 600;
-    font-size: larger;
-    margin-bottom: 20px;
+  color: #4f89e8;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 20px;
 }
 
 .Contactinfo h6 {
-    color: #1656a0;
-    font-weight: 600;
-    font-size: medium;
-    margin-bottom: 20px;
+  color: #1656a0;
+  font-weight: 600;
+  font-size: medium;
+  margin-bottom: 20px;
 }
 .SubmitBtn {
-    margin-left: 50px;
-    margin-right: 80px;
-    background-color: #5893d4;
-    color: white;
-    border: 3px solid #D9D9D9;
-    width: 50px;
-    height: 20px;
-    border: none;
+  margin-left: 50px;
+  margin-right: 80px;
+  background-color: #5893d4;
+  color: white;
+  border: 3px solid #d9d9d9;
+  width: 50px;
+  height: 20px;
+  border: none;
 }
 
 .Divmap {
-    display: inline-table;
-    padding: 0px;
-    margin: 0px;
-    z-index: -1;
+  display: inline-table;
+  padding: 0px;
+  margin: 0px;
+  z-index: -1;
+}
+.Divmapmobile {
+  display: none;
 }
 .MapComponent div {
-    position: relative;
+  position: relative;
 }
 .map {
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .map-container {
-    width: 400px;
+  width: 400px;
 }
 
 .sidebarStyle {
-    display: inline-block;
+  display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
@@ -775,55 +756,50 @@ h6 {
 }
 
 .sidebarStyle div {
-    width: 200px;
+  width: 200px;
 }
-
-  
- 
 
 /* CSS for contact us page ends here */
 
 /* CSS for location page starts here */
 .Location {
-    text-align: center;
-    padding: 30px;
-    height: 150vh;
+  text-align: center;
+  padding: 30px;
+  height: 150vh;
 }
 
 .Location h3 {
-    color: #4F89E8;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  color: #4f89e8;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .Locationpics {
-    margin-top: 70px;
-    text-align: left;
-    padding: 50px;
-    height: 100vh;
-    background-color: white;
-    border-radius: 20px;
+  margin-top: 70px;
+  text-align: left;
+  padding: 50px;
+  height: 100vh;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .Location1 {
-    width: 100vh;
-    height: 900px;
-    clear: both;
-    display: table;
+  width: 100vh;
+  height: 900px;
+  clear: both;
+  display: table;
 }
 
 .Locationpic1 {
-    width: 38%;
-    float: left;
-
+  width: 38%;
+  float: left;
 }
 
 .Locationtext1 {
-    width: 60%;
-    height: 400px;
-    float: left;
-    
+  width: 60%;
+  height: 400px;
+  float: left;
 }
 
 .Location2 {
@@ -833,40 +809,157 @@ h6 {
 }
 
 .Locationpic2 {
-    width: 38%;
-    float: left;
-
+  width: 38%;
+  float: left;
 }
 
 .Locationtext2 {
-    width: 60%;
-    height: 400px;
-    float: left;
-
+  width: 60%;
+  height: 400px;
+  float: left;
 }
-
-
 
 .Locationtext1 h6 {
-    display: block;
-    width: 30vw;
-    color: #1656a0;
-    font-size: medium;
-    font-weight: 500;
+  display: block;
+  width: 30vw;
+  color: #1656a0;
+  font-size: medium;
+  font-weight: 500;
 }
 .Locationtext2 h6 {
-    display: block;
-    width: 30vw;
-    color: #1656a0;
-    font-weight: 500;
-    font-size: medium;
+  display: block;
+  width: 30vw;
+  color: #1656a0;
+  font-weight: 500;
+  font-size: medium;
 }
 .Locationpics img {
-    width: 400px;
-    margin-bottom: 50px;
-    border: solid 10px #b4d0f0;
-    border-radius: 20px;
-    
+  width: 400px;
+  margin-bottom: 50px;
+  border: solid 10px #b4d0f0;
+  border-radius: 20px;
 }
 
 /* CSS for location component ends here */
+
+/* CSS Styling for mobile version */
+@media only screen and (max-width: 1200px) {
+  .Burger {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .Bur {
+    color: #5893d4;
+    height: 40px;
+    width: 40px;
+    float: right;
+  }
+  .Links {
+    display: none;
+  }
+  .flex1 {
+    width: 100%;
+  }
+  .flex2 {
+    width: 100%;
+  }
+  .Homeservices {
+    width: 85%;
+    height: 1000px;
+  }
+  .Homeskillpic {
+    width: 90%;
+    float: right;
+  }
+  .flex-containerhome {
+    display: inline;
+  }
+  .flex1in {
+    display: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .flex2in {
+    display: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .Divmap {
+    display: none;
+  }
+  .Contactinput {
+    width: 80%;
+    padding-left: 40px;
+  }
+  .Contact {
+    margin-left: 0;
+    width: 100%;
+  }
+  .Contacttext {
+    width: 100%;
+    height: 900px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Contactinput input {
+    height: 27px;
+    width: 90%;
+    padding-left: 7px;
+    margin: 0;
+    padding: 2px;
+    border: 0.5px solid rgba(21, 69, 124, 0.3);
+    z-index: -1;
+    box-shadow: 0px 0px 0px 0.5px rgba(21, 69, 124, 0.3);
+    border-radius: 3px;
+    display: absolute;
+    z-index: 1000;
+  }
+  .Contactinput textarea {
+    height: 155px;
+    width: 90%;
+    padding-left: 7px;
+    margin: 0;
+    padding: 2px;
+    border: 0.5px solid rgba(21, 69, 124, 0.3);
+    z-index: -1;
+    box-shadow: 0px 0px 0px 1px rgba(42, 104, 175, 0.3);
+    border-radius: 3px;
+    display: absolute;
+    z-index: 1000;
+  }
+  .Divmapmobile {
+    display: block;
+  }
+  .footerh3 {
+    margin-left: 20px;
+  }
+  .Burgerstuff {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    text-align: center;
+    padding-right: 20px;
+    width: 150px;
+    background-color: aliceblue;
+    height: 275px;
+    z-index: 1000;
+    border-radius: 10px;
+  }
+  .link {
+    width: 100%;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+    font-size: large;
+    color: #5893d4;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    right: 15px;
+  }
+}
