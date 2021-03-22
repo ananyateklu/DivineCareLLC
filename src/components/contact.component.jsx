@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Contactpic from "../assets/contactpic3.jpg";
 import Gmap from "./googlemaps.component";
+import Gmap2 from "./googlemaps2.component";
 import emailjs from "emailjs-com";
 
 class contact extends Component {
@@ -72,6 +73,7 @@ class contact extends Component {
           </div>
         </div>
         <div className="Contacttext">
+       
           <div className="Contactinput">
             <form onSubmit={this.sendEmail}>
               <div className="Nameinput">
@@ -102,6 +104,10 @@ class contact extends Component {
           <div className="Divmap">
           {/* Google maps */}
           <Gmap />
+        </div>
+        <div className="Divmapmobile">
+          {/* Google maps */}
+          <Gmap2 />
         </div>
         </div>
         
