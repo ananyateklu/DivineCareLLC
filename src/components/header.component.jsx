@@ -28,7 +28,7 @@ export default class header extends Component {
                     <Link className="link" to="/services">OUR SERVICES</Link>
                     <Link className="link" to="/contactus">CONTACT US</Link>
                     <Link className="link" to="/location">LOCATION</Link>
-                    <button className="Footerbutton">APPLY NOW</button>    
+                    <button className="Headerbutton">APPLY NOW</button>    
                     </div>
           <div className="Links">
             <NavLink

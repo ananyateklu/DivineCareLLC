@@ -13,7 +13,7 @@ export class MapContainer extends React.Component {
       zIndex: "0",
       width: "300px",
       height: "350px",
-      top: "1880px",
+      top: "1200px",
       left: "30px",
       marginTop: "0",
       marginLeft: "0",
