@@ -21,7 +21,6 @@ export class MapContainer extends React.Component {
       border: "solid 2px #7daaf3",
     };
 
-    console.log(process.env);
 
     return (
       <div className="MapComponent">
