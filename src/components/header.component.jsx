@@ -14,7 +14,7 @@ export default class header extends Component {
                 color: "white",
                 backgroundColor: "#5893d4",
                 paddingTop: "40px",
-                paddingBottom: "40px",
+                paddingBottom: "42px",
               }}
               exact
               to="/"
@@ -27,7 +27,7 @@ export default class header extends Component {
                 color: "white",
                 backgroundColor: "#5893d4",
                 paddingTop: "40px",
-                paddingBottom: "40px",
+                paddingBottom: "42px",
               }}
               to="/aboutus"
               className="linkoff"
@@ -39,7 +39,7 @@ export default class header extends Component {
                 color: "white",
                 backgroundColor: "#5893d4",
                 paddingTop: "40px",
-                paddingBottom: "40px",
+                paddingBottom: "42px",
               }}
               to="/services"
               className="linkoff"
@@ -51,7 +51,7 @@ export default class header extends Component {
                 color: "white",
                 backgroundColor: "#5893d4",
                 paddingTop: "40px",
-                paddingBottom: "40px",
+                paddingBottom: "42px",
               }}
               to="/contactus"
               className="linkoff"
@@ -63,7 +63,7 @@ export default class header extends Component {
                 color: "white",
                 backgroundColor: "#5893d4",
                 paddingTop: "40px",
-                paddingBottom: "40px",
+                paddingBottom: "42px",
               }}
               to="/location"
               className="linkoff"
