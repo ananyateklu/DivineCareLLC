@@ -931,6 +931,32 @@ h6 {
     display: absolute;
     z-index: 1000;
   }
+  .Contacttitle img {
+    width: 40px;
+    margin-top: 40px;
+  }
+  .Contactpic img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    filter: blur(3px);
+    margin: -5px -10px -10px 0px;
+  }
+  .Contactinfo {
+    display: inline-table;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  .Contactinfo img {
+      width: 40px;
+  }
+  .Contactinfo h4 {
+      font-size: medium;
+  }
+  .Contactinfo h6 {
+    font-size: small;
+}
   .Divmapmobile {
     display: block;
   }
