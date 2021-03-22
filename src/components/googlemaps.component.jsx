@@ -9,11 +9,14 @@ export class MapContainer extends React.Component {
 
   render() {
     const style = {
+      position: "absolute",
       zIndex: "0",
       width: "340px",
-      height: "390px",
-      marginTop: "720px",
-      marginLeft: "650px",
+      height: "400px",
+      top: "720px",
+      left: "45vw",
+      marginTop: "0",
+      marginLeft: "0",
       borderRadius: "10px",
       border: "solid 2px #7daaf3",
     };

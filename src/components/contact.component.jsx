@@ -99,11 +99,12 @@ class contact extends Component {
               </div>
             </form>
           </div>
-        </div>
-        <div className="Divmap">
+          <div className="Divmap">
           {/* Google maps */}
           <Gmap />
         </div>
+        </div>
+        
       </div>
     );
   }
