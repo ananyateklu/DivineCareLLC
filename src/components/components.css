@@ -861,6 +861,66 @@ h6 {
   .Links {
     display: none;
   }
+
+  .Headerbutton{
+    margin-left: 25px;
+    margin-right: 80px;
+    margin-top: 15px ;
+    background-color: #5893d4;
+    color: white;
+    border: 3px solid #d9d9d9;
+    width: 110px;
+    height: 30px;
+    border-radius: 6px;
+  }
+
+  .Footerbutton {
+      border-radius: 5px;
+  }
+  .Footer a {
+    padding: 7px;
+    color: aliceblue;
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .Footer a:active {
+      text-decoration: dashed;
+  }
+  .Licence {
+    text-align: center;
+    background-color: #548eccc4;
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .Licence h6 {
+    font-size: 9px;
+    padding-top: 15px;
+    font-weight: 600;
+    color: aliceblue;
+  }
+  .Copyright {
+    text-align: center;
+    background-color: #f1f7ff;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+  }
+  .Copyright h6 {
+    padding-top: 15px;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 500;
+    color: #2169bb;
+  }
+  .footerh3 {
+    font-size: 11px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 70px;
+  }
   .flex1 {
     width: 100%;
   }
@@ -971,7 +1031,7 @@ h6 {
     padding-right: 20px;
     width: 150px;
     background-color: aliceblue;
-    height: 275px;
+    height: 280px;
     z-index: 1000;
     border-radius: 10px;
   }
@@ -987,6 +1047,10 @@ h6 {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     right: 15px;
+  }
+  .Flexfooter2 {
+    flex: 1;
+    margin-left: 40px;
   }
   .Homeservices1 {
     width: 100%;
