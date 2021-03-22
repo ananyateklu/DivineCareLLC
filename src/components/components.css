@@ -988,4 +988,14 @@ h6 {
     font-family: 'Roboto', sans-serif;
     right: 15px;
   }
+  .Homeservices1 {
+    width: 100%;
+    display: inline-table;
+  }
+  
+  .Homeservices2 {
+    width: 100%;
+    display: inline-table;
+  }
+  
 }
