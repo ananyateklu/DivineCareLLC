@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Pic1 from '../assets/Home1.jpg';
-import Pic2 from '../assets/Home2.jpg';
-import Pic3 from '../assets/Home3.jpg';
-import Pic4 from '../assets/Home4.jpg';
+import Pic1 from "../assets/Home1.jpg";
+import Pic2 from "../assets/Home2.jpg";
+import Pic3 from "../assets/Home3.jpg";
+import Pic4 from "../assets/Home4.jpg";
 
 export default class Slider extends Component {
   constructor(props) {
@@ -10,36 +10,34 @@ export default class Slider extends Component {
 
     this.state = {
       counter: 1,
-      track: true
-    }
-
+    };
   }
-
-  trackerFunction() {
-    this.setState({track:false})
+  componentDidMount() {
+      this.counterFunction();
   }
+ 
 
   counterFunction() {
-      var counter = this.state.counter;
-      setInterval(function () {
+    var counter = 1;
+    setInterval(function () {
+      if(document.getElementById("radio"+counter) != null) {
         document.getElementById("radio" + counter).checked = true;
         counter++;
         if (counter > 4) {
           counter = 1;
         }
-      }, 4000);
- 
-
+      }
+      
+    }, 5000);
   }
 
   render() {
-
     return (
       <div className="imgbody">
         <div className="slider">
           <div className="slides">
-            <input type="radio" name="radio-btn" id="radio1"/>
-            <input type="radio" name="radio-btn" id="radio2"/>
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
             <input type="radio" name="radio-btn" id="radio3" />
             <input type="radio" name="radio-btn" id="radio4" />
 
@@ -65,7 +63,7 @@ export default class Slider extends Component {
 
             <div className="navigation-manual">
               <label for="radio1" className="manual-btn"></label>
-              <label for="radio2" className="manual-btn"  ></label>
+              <label for="radio2" className="manual-btn"></label>
               <label for="radio3" className="manual-btn"></label>
               <label for="radio4" className="manual-btn"></label>
             </div>
