@@ -23,9 +23,11 @@ class contact extends Component {
       .then(
         (result) => {
           console.log(result.text);
+          window.location.reload();
         },
         (error) => {
           console.log(error.text);
+          window.location.reload();
         }
       );
   }
