@@ -39,7 +39,7 @@ export default class header extends Component {
                 marginRight: "15px",
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #5893d4",
+                borderBottom: "2.5px solid #68a5e7",
                 
               }}
               exact
@@ -55,7 +55,7 @@ export default class header extends Component {
                 padding: "2px" ,
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #5893d4",
+                borderBottom: "2.5px solid #68a5e7",
               }}
               to="/aboutus"
               className="linkoff"
@@ -69,7 +69,7 @@ export default class header extends Component {
                 padding: "2px" ,
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #5893d4", 
+                borderBottom: "2.5px solid #68a5e7", 
               }}
               to="/services"
               className="linkoff"
@@ -83,7 +83,7 @@ export default class header extends Component {
                 padding: "2px" ,
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #5893d4",
+                borderBottom: "2.5px solid #68a5e7",
               }}
               to="/contactus"
               className="linkoff"
@@ -97,7 +97,7 @@ export default class header extends Component {
                 padding: "2px" ,
                 paddingTop: "40px",
                 paddingBottom: "8px",
-                borderBottom: "2.5px solid #5893d4",
+                borderBottom: "2.5px solid #68a5e7",
               }}
               to="/location"
               className="linkoff"
