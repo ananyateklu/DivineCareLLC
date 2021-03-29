@@ -80,15 +80,15 @@ class contact extends Component {
             <form onSubmit={this.sendEmail}>
               <div className="Nameinput">
                 <h4>Name</h4>
-                <input type="text" name="Name"></input>
+                <input className="inputs" type="text" name="Name"></input>
               </div>
               <div className="Phoneinput">
                 <h4>Phone</h4>
-                <input type="number" name="Phone"></input>
+                <input className="inputs"  type="number" name="Phone"></input>
               </div>
               <div className="Emailinput">
                 <h4>Email</h4>
-                <input type="email" name="Email"></input>
+                <input className="inputs"  type="email" name="Email"></input>
               </div>
               <div className="Lastinput">
                 <h4>Comments/Questions</h4>
@@ -97,7 +97,7 @@ class contact extends Component {
                   <input
                     type="submit"
                     className="SubmitBtn"
-                    value="Send Message"
+                    value="Send"
                   ></input>
                 </div>
               </div>

@@ -33,9 +33,29 @@
 }
 
 .Links button {
-  border-radius: 5px;
-  width: 150px;
+    margin-left: 50px;
+    margin-right: 80px;
+    background-color: #5893d4;
+    color: white;
+    border: 2px solid #d9d9d9;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
 }
+
+.Links button:hover {
+    margin-left: 50px;
+    margin-right: 80px;
+    background-color: aliceblue;
+    color: #5893d4;
+    border: 2px solid #d9d9d9;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
 
 .linkon {
   color: aliceblue;
@@ -97,9 +117,24 @@ button {
   flex: 1;
 }
 .Footerbutton {
-  margin: 0;
-  margin-top: 7px;
-  margin-left: 5px;
+    background-color: #5893d4;
+    color: white;
+    border: 2px solid #d9d9d9;
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.Footerbutton:hover {
+    margin: 0px;
+    background-color: aliceblue;
+    color: #5893d4;
+    border: 2px solid #d9d9d9;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
 }
 .Footer a {
   padding: 7px;
@@ -207,9 +242,6 @@ h6 {
 .slide {
   width: 33.33%;
   transition: 2s;
-}
-.slide.first {
-  background-attachment: red;
 }
 
 .navigation-manual {
@@ -659,15 +691,14 @@ h6 {
   margin-bottom: 5px;
 }
 
-.Contactinput input {
+.inputs {
   height: 27px;
   width: 75%;
   padding-left: 7px;
   margin: 0;
   padding: 2px;
   border: none;
-  z-index: -1;
-  box-shadow: 0px 0px 0px 1px rgba(21, 69, 124, 0.3);
+  box-shadow: 0px 0px 0px 1px rgba(35, 106, 189, 0.3);
   border-radius: 3px;
   display: absolute;
   z-index: 1000;
@@ -687,21 +718,7 @@ h6 {
   z-index: 1000;
 }
 
-.Lastinput input {
-  height: 35px;
-  width: 170px;
-  margin-top: 15px;
-}
 
-.Lastinput input:active {
-  height: 35px;
-  width: 170px;
-  margin-top: 10px;
-  background-color: aliceblue;
-  color: #4a7ac7;
-  border: none;
-  box-shadow: 0px 0px 0px 1px rgba(20, 83, 155, 0.3);
-}
 
 .Contactinfo {
   display: inline-table;
@@ -723,14 +740,26 @@ h6 {
   margin-bottom: 20px;
 }
 .SubmitBtn {
-  margin-left: 50px;
-  margin-right: 80px;
-  background-color: #5893d4;
-  color: white;
-  border: 3px solid #d9d9d9;
-  width: 50px;
-  height: 20px;
-  border: none;
+    background-color: #5893d4;
+    color: white;
+    border: 2px solid #d9d9d9;
+    width: 170px;
+    margin: 0px;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.SubmitBtn:hover {
+    background-color: aliceblue;
+    color: #5893d4;
+    border: 2px solid #d9d9d9;
+    width: 170px;
+    margin: 0px;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 3px;
 }
 
 .Divmap {
@@ -766,7 +795,7 @@ h6 {
   margin: 12px;
   background-color: #404040;
   color: #ffffff;
-  z-index: 1 !important;
+  z-index: 1;
   padding: 6px;
   font-weight: bold;
 }
@@ -890,9 +919,7 @@ h6 {
     border-radius: 6px;
   }
 
-  .Footerbutton {
-      border-radius: 5px;
-  }
+
   .Footer a {
     padding: 7px;
     color: aliceblue;
@@ -980,19 +1007,6 @@ h6 {
     height: 900px;
     margin-left: 0;
     margin-right: 0;
-  }
-  .Contactinput input {
-    height: 27px;
-    width: 90%;
-    padding-left: 7px;
-    margin: 0;
-    padding: 2px;
-    border: 0.5px solid rgba(21, 69, 124, 0.3);
-    z-index: -1;
-    box-shadow: 0px 0px 0px 0.5px rgba(21, 69, 124, 0.3);
-    border-radius: 3px;
-    display: absolute;
-    z-index: 1000;
   }
   .Contactinput textarea {
     height: 155px;
