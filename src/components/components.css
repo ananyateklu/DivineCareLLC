@@ -28,6 +28,8 @@
 .Links a {
   font-size: 0.91rem;
   font-weight: 500;
+  margin-left: 20px;
+  
 }
 
 .Links button {
@@ -36,14 +38,25 @@
 }
 
 .linkon {
-  background-color: #5893d4;
   color: aliceblue;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 .linkoff {
+  padding: 0px;
+  margin: 30px;
   background-color: transparent;
   color: #1c77dfdc;
+  z-index: 1000;
+}
+
+.linkoff:hover {
+    padding: 0px;
+    font-size: 17px;
+    background-color: transparent;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    border-bottom: 2.5px solid #5893d4;
 }
 
 button {

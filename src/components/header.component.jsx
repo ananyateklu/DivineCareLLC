@@ -33,10 +33,14 @@ export default class header extends Component {
           <div className="Links">
             <NavLink
               activeStyle={{
-                color: "white",
-                backgroundColor: "#5893d4",
+                color: "#1c77dfdc",
+                backgroundColor: "transparent",
+                padding: "2px" ,
+                marginRight: "15px",
                 paddingTop: "40px",
-                paddingBottom: "42px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #5893d4",
+                
               }}
               exact
               to="/"
@@ -46,10 +50,12 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "white",
-                backgroundColor: "#5893d4",
+                color: "#1c77dfdc",
+                backgroundColor: "transparent",
+                padding: "2px" ,
                 paddingTop: "40px",
-                paddingBottom: "42px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #5893d4",
               }}
               to="/aboutus"
               className="linkoff"
@@ -58,10 +64,12 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "white",
-                backgroundColor: "#5893d4",
+                color: "#1c77dfdc",
+                backgroundColor: "transparent",
+                padding: "2px" ,
                 paddingTop: "40px",
-                paddingBottom: "42px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #5893d4", 
               }}
               to="/services"
               className="linkoff"
@@ -70,10 +78,12 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "white",
-                backgroundColor: "#5893d4",
+                color: "#1c77dfdc",
+                backgroundColor: "transparent",
+                padding: "2px" ,
                 paddingTop: "40px",
-                paddingBottom: "42px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #5893d4",
               }}
               to="/contactus"
               className="linkoff"
@@ -82,10 +92,12 @@ export default class header extends Component {
             </NavLink>
             <NavLink
               activeStyle={{
-                color: "white",
-                backgroundColor: "#5893d4",
+                color: "#1c77dfdc",
+                backgroundColor: "transparent",
+                padding: "2px" ,
                 paddingTop: "40px",
-                paddingBottom: "42px",
+                paddingBottom: "8px",
+                borderBottom: "2.5px solid #5893d4",
               }}
               to="/location"
               className="linkoff"
