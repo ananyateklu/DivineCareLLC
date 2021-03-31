@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Pic2 from "../assets/homeskill.jpg";
 import Pic3 from "../assets/tick.png";
 import Slider from "./Slider";
-import { SliderData } from "./SliderData";
 import Licence1 from "../assets/Licence1.png";
 import Homecomp from "../assets/Homecomp4.jpg";
 
@@ -13,7 +12,7 @@ export default class home extends Component {
   render() {
     return (
       <div className="Home">
-        <Slider slides={SliderData} />
+        <Slider />
         <div className="Homewelcome">
           <div className="Titlediv">
             <h3 className="Title">WELCOME TO</h3>
@@ -90,7 +89,7 @@ export default class home extends Component {
           </div>
         </div>
         <div className="Testimonials">
-          <div className="Testimonialtext">
+          <div className="Testimonialtext1">
             <h3>Testimonial</h3>
             <img className="Quotepic" src={Pic3} alt="quote-pic" />
             <h3>Richard Green</h3>
@@ -119,6 +118,21 @@ export default class home extends Component {
               I highly recommend Divine Care as a provider. They have great
               staff members, well defined leadership positions at the house
               level and an open and professional administrative staff.
+            </h6>
+          </div>
+          <div className="Testimonialtext2">
+            <h3>Testimonial</h3>
+            <img className="Quotepic" src={Pic3} alt="quote-pic" />
+            <h3>Dianne</h3>
+            <h3 className="Fatherof">Father of Divine Care Resident</h3>
+            <h6>
+              I was introduced to Divine Care about 3 years ago. I immediately noticed the Genuine Sincerity of Fentu Zewdie and Staff in their concern for wellbeing of her clients.
+            </h6>
+            <h6>
+             Its been a great experience ever since. I am impressed by the professional staff and support provided, and by the strong "can do" spirit -no matter the task. Divine Care develops person centered quality living experiences for individual with disabilities. All patients are treated with respect and dignity. 
+            </h6>
+            <h6>
+            My brother Renton Ramsamooj has been a resident there for almost three years and he is happy and satisfied with his care and love from Divine Care. Thank you 
             </h6>
           </div>
         </div>
