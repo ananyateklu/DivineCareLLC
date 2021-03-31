@@ -40,7 +40,7 @@ class contact extends Component {
         </div>
         <div className="Contacttitle">
           <h3>CONTACT US</h3>
-          <hr />
+          {/* <hr /> */}
           <div className="Contactinfo">
             <img
               alt="contactpic1"

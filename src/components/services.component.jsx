@@ -16,7 +16,11 @@ export default class services extends Component {
         <div className="Servicestext">
           <div className="Servicestitle">
             <img alt="services" src="https://img.icons8.com/dusk/100/000000/treatment-plan.png"/>
-            <h3>SERVICES PROVIDED BY DIVINE CARE LLC</h3>
+            <div className="Titlediv">
+            <h3 className="Title">SERVICES PROVIDED BY</h3>
+            <h3 className="Title2"> DIVINE CARE LLC</h3>
+          </div>
+            {/* <h3>SERVICES PROVIDED BY DIVINE CARE LLC</h3> */}
           </div>
           <h4>HOME CARE SERVICES</h4>
           <div className="Homeservices1">
