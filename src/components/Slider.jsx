@@ -12,6 +12,13 @@ export default class Slider extends Component {
   }
   componentDidMount() {
     this.counterFunction();
+    this.reloadhome();
+  }
+  reloadhome() {
+    if(!window.location.hash) {
+      window.location = window.location + '#home';
+      window.location.reload();
+  }
   }
 
   counterFunction() {
