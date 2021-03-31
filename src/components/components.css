@@ -1264,4 +1264,13 @@ h6 {
 .picicon {
     display: none;
 }
+.Homeservices1 {
+  width: 100%;
+  display: inline-table;
+}
+
+.Homeservices2 {
+  width: 100%;
+  display: inline-table;
+}
 }
