@@ -121,6 +121,7 @@ button {
   width: 150px;
   height: 30px;
   margin: 0px;
+  margin-top: 10px;
   font-size: 14px;
   border-radius: 3px;
 }
@@ -132,6 +133,7 @@ button {
   width: 150px;
   height: 30px;
   font-size: 14px;
+  margin-top: 10px;
   border-radius: 3px;
 }
 .Footer a {
@@ -236,7 +238,7 @@ h6 {
 }
 .picicon {
     display: inline-table;
-    position: absolute;
+    position: fixed;
     background-color: aliceblue;
     width: 15vw;
     opacity: 0.7;
@@ -491,7 +493,12 @@ h6 {
 .Testimonials h6 {
   font-weight: 500;
 }
-.Testimonialtext {
+.Testimonialtext1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Testimonialtext2 {
   width: 50%;
   margin: 0 auto;
   text-align: center;
