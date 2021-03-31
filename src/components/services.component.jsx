@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Servicespic from "../assets/contactpic22.jpg";
+import Servicespic from "../assets/extra1.jpg";
 
 export default class services extends Component {
 
