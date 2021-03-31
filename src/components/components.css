@@ -8,7 +8,7 @@
   display: none;
 }
 .Burgerstuff {
-    display: none;
+  display: none;
 }
 
 .Header {
@@ -29,33 +29,31 @@
   font-size: 0.91rem;
   font-weight: 500;
   margin-left: 20px;
-  
 }
 
 .Links button {
-    margin-left: 50px;
-    margin-right: 80px;
-    background-color: #5893d4;
-    color: white;
-    border: 2px solid #d9d9d9;
-    width: 150px;
-    height: 30px;
-    font-size: 14px;
-    border-radius: 3px;
+  margin-left: 50px;
+  margin-right: 80px;
+  background-color: #5893d4;
+  color: white;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 
 .Links button:hover {
-    margin-left: 50px;
-    margin-right: 80px;
-    background-color: aliceblue;
-    color: #5893d4;
-    border: 2px solid #d9d9d9;
-    width: 150px;
-    height: 30px;
-    font-size: 14px;
-    border-radius: 3px;
+  margin-left: 50px;
+  margin-right: 80px;
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
 }
-
 
 .linkon {
   color: aliceblue;
@@ -71,12 +69,12 @@
 }
 
 .linkoff:hover {
-    padding: 0px;
-    background-color: transparent;
-    padding-top: 40px;
-    padding-bottom: 8px;
-    border-bottom: 2.5px solid #68a5e7;
-    color: #1c77dfdc;
+  padding: 0px;
+  background-color: transparent;
+  padding-top: 40px;
+  padding-bottom: 8px;
+  border-bottom: 2.5px solid #68a5e7;
+  color: #1c77dfdc;
 }
 
 button {
@@ -117,24 +115,24 @@ button {
   flex: 1;
 }
 .Footerbutton {
-    background-color: #5893d4;
-    color: white;
-    border: 2px solid #d9d9d9;
-    width: 150px;
-    height: 30px;
-    margin: 0px;
-    font-size: 14px;
-    border-radius: 3px;
+  background-color: #5893d4;
+  color: white;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  height: 30px;
+  margin: 0px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 .Footerbutton:hover {
-    margin: 0px;
-    background-color: aliceblue;
-    color: #5893d4;
-    border: 2px solid #d9d9d9;
-    width: 150px;
-    height: 30px;
-    font-size: 14px;
-    border-radius: 3px;
+  margin: 0px;
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 .Footer a {
   padding: 7px;
@@ -185,6 +183,7 @@ button {
 }
 .Title {
   display: inline;
+  color: black;
 }
 .Title2 {
   color: #5893d4;
@@ -311,8 +310,8 @@ h6 {
   background-color: #52a2ff;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
-    background-color: #52a2ff;
-  }
+  background-color: #52a2ff;
+}
 
 .flex-containerhome {
   display: flex;
@@ -515,6 +514,18 @@ h6 {
 .Aboutpic img {
   width: 100%;
 }
+/* .Abouttitle {
+  color: black;
+  display: inline;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.Abouttitle2 {
+  display: inline;
+  color: #4f89e8;
+  font-weight: 700;
+  margin-bottom: 30px;
+} */
 
 .Abouttext {
   text-align: center;
@@ -528,11 +539,11 @@ h6 {
   margin-top: 15px;
 }
 
-.Abouttext h3 {
+/* .Abouttext h3 {
   color: #4f89e8;
   font-weight: 700;
   margin-bottom: 30px;
-}
+} */
 
 .Abouttext h6 {
   color: #1656a0;
@@ -572,11 +583,11 @@ h6 {
   margin-top: 15px;
 }
 
-.Servicestext h3 {
+/* .Servicestext h3 {
   color: #4f89e8;
   font-weight: 700;
   margin-bottom: 10px;
-}
+} */
 
 .Servicestext h4 {
   color: #4f89e8;
@@ -664,7 +675,7 @@ h6 {
   padding: 0;
   margin: auto;
   border: none;
-  border: 1.3px dashed #4f89e8;
+  border: 1.2px dashed #4f89e8;
 }
 
 .Contacttitle img {
@@ -718,8 +729,6 @@ h6 {
   z-index: 1000;
 }
 
-
-
 .Contactinfo {
   display: inline-table;
   margin-left: 20px;
@@ -740,26 +749,26 @@ h6 {
   margin-bottom: 20px;
 }
 .SubmitBtn {
-    background-color: #5893d4;
-    color: white;
-    border: 2px solid #d9d9d9;
-    width: 170px;
-    margin: 0px;
-    margin-top: 20px;
-    height: 30px;
-    font-size: 14px;
-    border-radius: 3px;
+  background-color: #5893d4;
+  color: white;
+  border: 2px solid #d9d9d9;
+  width: 170px;
+  margin: 0px;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 .SubmitBtn:hover {
-    background-color: aliceblue;
-    color: #5893d4;
-    border: 2px solid #d9d9d9;
-    width: 170px;
-    margin: 0px;
-    margin-top: 20px;
-    height: 30px;
-    font-size: 14px;
-    border-radius: 3px;
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  width: 170px;
+  margin: 0px;
+  margin-top: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 3px;
 }
 
 .Divmap {
@@ -907,10 +916,10 @@ h6 {
     display: none;
   }
 
-  .Headerbutton{
+  .Headerbutton {
     margin-left: 25px;
     margin-right: 80px;
-    margin-top: 15px ;
+    margin-top: 15px;
     background-color: #5893d4;
     color: white;
     border: 3px solid #d9d9d9;
@@ -918,7 +927,6 @@ h6 {
     height: 30px;
     border-radius: 6px;
   }
-
 
   .Footer a {
     padding: 7px;
@@ -928,7 +936,7 @@ h6 {
     text-decoration: none;
   }
   .Footer a:active {
-      text-decoration: dashed;
+    text-decoration: dashed;
   }
   .Licence {
     text-align: center;
@@ -1039,14 +1047,14 @@ h6 {
     width: 150px;
   }
   .Contactinfo img {
-      width: 40px;
+    width: 40px;
   }
   .Contactinfo h4 {
-      font-size: medium;
+    font-size: medium;
   }
   .Contactinfo h6 {
     font-size: small;
-}
+  }
   .Divmapmobile {
     display: block;
   }
@@ -1075,7 +1083,7 @@ h6 {
     font-size: large;
     color: #5893d4;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     right: 15px;
   }
   .Flexfooter2 {
@@ -1086,10 +1094,9 @@ h6 {
     width: 100%;
     display: inline-table;
   }
-  
+
   .Homeservices2 {
     width: 100%;
     display: inline-table;
   }
-  
 }
