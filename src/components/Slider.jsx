@@ -70,7 +70,7 @@ export default class Slider extends Component {
               <img className="slideimg" src={Pic3} alt="pic3" />
             </div>
             <div className="slide">
-              <div className="icon">
+              <div className="picicon">
                 <img
                   src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
                   alt="24/7icon"
