@@ -15,10 +15,10 @@ export default class Slider extends Component {
     this.reloadhome();
   }
   reloadhome() {
-    if(!window.location.hash) {
-      window.location = window.location + '#home';
+    if (!window.location.hash) {
+      window.location = window.location + "#home";
       window.location.reload();
-  }
+    }
   }
 
   counterFunction() {
