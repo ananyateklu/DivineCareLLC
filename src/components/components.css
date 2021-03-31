@@ -1162,6 +1162,17 @@ h6 {
     position: relative;
     margin-bottom: 70px;
   }
+  .Location {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 230vh;
+    text-align: center;
+    clear: both;
+    padding-bottom: 30px;
+    background-color: white;
+    margin-bottom: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
   .Locationtext1 {
     width: 50%;
@@ -1207,6 +1218,16 @@ h6 {
     padding-bottom: 30px;
     margin-top: 70px;
     margin-bottom: 70px;
+  }
+  .Testimonialtext1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Testimonialtext2 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
   .Testimonials h6 {
     font-weight: 500;
@@ -1306,4 +1327,80 @@ h6 {
   position: relative;
   overflow: hidden;
 }
+
+.Location1 {
+  width: 80vh;
+  height: auto;
+  clear: both;
+  display: relative;
+  text-align: center;
+}
+
+.Locationpic1 {
+  width: 100%;
+  text-align: center;
+}
+.Locationpic1 img { 
+  width: 100%;
+
+}
+
+
+.Locationtext1 {
+  width: 100%;
+  height: 200px;
+  text-align: left;
+
+}
+.Locationtext1 h6 {
+  display: block;
+  width: 60vw;
+  color: #1656a0;
+  font-size: medium;
+  font-weight: 500;
+}
+.Locationtext2 h6 {
+  display: block;
+  width: 60vw;
+  color: #1656a0;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.Location2 {
+  width: 80vh;
+  display: relative;
+  clear: both;
+}
+
+.Locationpic2 {
+  width: 100%;
+  text-align: center;
+}
+.Locationpic2 img { 
+  width: 100%;
+
+}
+
+.Locationtext2 {
+  width: 100%;
+  margin-left: 0px;
+  height: 200px;
+  clear: both;
+  text-align: left;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .Location {
+    width: 80vw;
+    margin-left: 10vw;
+    height: 160vh;
+    text-align: center;
+    clear: both;
+    padding-bottom: 30px;
+    background-color: white;
+    margin-bottom: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
 }

@@ -10,6 +10,7 @@ export default class location extends Component {
   render() {
     return (
       <div className="Location">
+        <div className="Locationall">
         <div className="Locationpic">
           <img src={Locationpic} alt="location" />
         </div>
@@ -42,6 +43,8 @@ export default class location extends Component {
             </div>
           </div>
         </div>
+        </div>
+       
       </div>
     );
   }
