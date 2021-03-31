@@ -231,9 +231,25 @@ h6 {
   height: 500px;
   display: flex;
 }
-.slide img {
+.slideimg {
   width: 100vw;
 }
+.picicon {
+    display: inline-table;
+    position: absolute;
+    background-color: aliceblue;
+    width: 15vw;
+    opacity: 0.7;
+    margin-left: 70vw;
+    margin-top: 60px;
+    margin-right: 4vw;
+    margin-bottom: 4vh;
+    text-align: center;
+    height: 300px;
+    border-radius: 25px;
+    border: 4px solid #5893d4;
+  }
+
 .slides input {
   display: none;
 }
@@ -320,12 +336,12 @@ h6 {
 .flex1 {
   flex: 1;
   margin-right: 0px;
-  width: 60vw;
+  width: 65vw;
 }
 
 .flex1in {
-  width: 400px;
-  margin-left: 100px;
+  width: 32vw;
+  margin-left: 50px;
 }
 
 .flex1 h3 {
@@ -338,7 +354,7 @@ h6 {
 }
 
 .flex2 {
-  width: 40vw;
+  width: 55%;
 }
 
 .flex2 h3 {
@@ -347,38 +363,20 @@ h6 {
 }
 
 .flex2in {
-  background-color: aliceblue;
   opacity: 0.7;
   padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 20px;
-  border-radius: 200px;
-  width: 460px;
+  width: 40vw;
 }
 
 .flex2 img {
-  background-color: #52a2ff;
   color: aliceblue;
-  border-radius: 15px;
-  width: 64px;
+  border-radius: 20px;
+  width: 100%;
   padding: 5px;
 }
-.iconI {
-  margin-left: 180px;
-}
-.iconH {
-  margin-left: 30px;
-}
-.iconS {
-  color: white;
-}
-.iconN {
-  margin-right: 110px;
-  margin-left: 90px;
-}
-.iconT {
-  color: white;
-}
+
 .Display h3 {
   display: inline;
 }
@@ -387,19 +385,62 @@ h6 {
   padding-left: 35px;
   padding-right: 35px;
 }
+.Homemore {
+  width: 100vw;
+  margin-top: 30px;
+  text-align: center;
+}
 
 .firsticon {
-  display: block;
-  margin-bottom: 5vw;
-  width: auto;
+  display: inline-table;
+  width: 12vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 4vh;
+  text-align: center;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
 }
-.secondicons {
-  margin-bottom: 7vw;
-  width: auto;
+.secondicon {
+  display: inline-table;
+  text-align: center;
+  width: 12vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
 }
-.thirdicons {
-  width: auto;
-  margin-bottom: 2vw;
+.thirdicon {
+  display: inline-table;
+  text-align: center;
+  width: 12vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
+}
+.forthicon {
+  display: inline-table;
+  text-align: center;
+  width: 12vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
+}
+.fifthicon {
+  display: inline-table;
+  text-align: center;
+  width: 12vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
 }
 
 .Homewelcome {
@@ -417,7 +458,7 @@ h6 {
   font-weight: 700;
 }
 .Homeservices {
-  height: 85vh;
+  height: 80vh;
   text-align: left;
   overflow: hidden;
 }
@@ -827,16 +868,16 @@ h6 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .Location img {
-    width: 70px;
+  width: 70px;
 }
 .Locationpic {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .Locationpic img {
-    width: 100%;
-    margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .Location h3 {
@@ -990,33 +1031,7 @@ h6 {
     font-weight: 500;
     margin-left: 70px;
   }
-  .flex1 {
-    width: 100%;
-  }
-  .flex2 {
-    width: 100%;
-  }
-  .Homeservices {
-    width: 85%;
-    height: 1000px;
-  }
-  .Homeskillpic {
-    width: 90%;
-    float: right;
-  }
-  .flex-containerhome {
-    display: inline;
-  }
-  .flex1in {
-    display: none;
-    width: 100%;
-    margin-left: 0;
-  }
-  .flex2in {
-    display: none;
-    width: 100%;
-    margin-left: 0;
-  }
+
   .Divmap {
     display: none;
   }
@@ -1108,19 +1123,141 @@ h6 {
     flex: 1;
     margin-left: 40px;
   }
-  .Homeservices1 {
-    width: 100%;
-    display: inline-table;
+  .Homeservices {
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+  }
+  .Homewelcome {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
   }
 
-  .Homeservices2 {
-    width: 100%;
-    display: inline-table;
-  }
   .Locationtext1 {
     width: 50%;
     margin-left: 0px;
-    height: 400px;
-  
+    height: 100%;
   }
+  .flex1 {
+    margin-right: 0px;
+    width: 65vw;
+    margin-right: 50px;
+    height: 100%;
+  }
+  .flex1in {
+    width: 100%;
+    display: inline-table;
+    height: 100%;
+  }
+  .flex2 {
+      display: none;
+  }
+  .Homeskilltext {
+    position: absolute;
+    height: 100%;
+    z-index: 2;
+    width: 90%;
+    left: 0px;
+    margin-top: 30px;
+  }
+  .Homeskillpic {
+    width: 100%;
+    position: relative;
+    float: left;
+    margin: -5px -10px -10px -5px;
+    filter: blur(16px);
+  }
+  .Homemore {
+    width: 100vw;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .Testimonials {
+    padding-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .Testimonials h6 {
+    font-weight: 500;
+  }
+  .Testimonialtext {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Quotepic {
+    width: 90px;
+  }
+  .Fatherof {
+    font-weight: 300;
+  }
+  .firsticon {
+    display: inline-table;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 4vh;
+    text-align: center;
+    height: 200px;
+  }
+  .secondicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .thirdicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .forthicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .fifthicon {
+    display: inline-table;
+    text-align: center;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 200px;
+  }
+  .navigation-auto {
+    display: none;
+    /* position: absolute;
+    
+    width: 98vw;
+    justify-content: center;
+    margin-top: 200px; */
+  }
+  .navigation-manual {
+    display: none;
+    /* position: absolute;
+    width: 98vw;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center; */
+  }
+.imgbody {
+  margin: 0;
+  padding: 0;
+  height: 217px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
 }
