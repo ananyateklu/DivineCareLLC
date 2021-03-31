@@ -8,26 +8,22 @@ export default class Slider extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      
-    };
+    this.state = {};
   }
   componentDidMount() {
-      this.counterFunction();
+    this.counterFunction();
   }
- 
 
   counterFunction() {
     var counter = 1;
     setInterval(function () {
-      if(document.getElementById("radio"+counter) != null) {
+      if (document.getElementById("radio" + counter) != null) {
         document.getElementById("radio" + counter).checked = true;
         counter++;
         if (counter > 4) {
           counter = 1;
         }
       }
-      
     }, 5000);
   }
 
@@ -42,16 +38,46 @@ export default class Slider extends Component {
             <input type="radio" name="radio-btn" id="radio4" />
 
             <div className="slide first">
-              <img src={Pic1} alt="pic1" />
+              <div className="picicon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/domain.png"
+                  alt="internet"
+                />
+                <h6>Amenities including in-room wifi and cable</h6>
+              </div>
+              <img className="slideimg" src={Pic1} alt="pic1" />
             </div>
             <div className="slide">
-              <img src={Pic2} alt="pic2" />
+              <div className="picicon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/home.png"
+                  alt="Homeicon"
+                />
+                <h6>Homely environment</h6>
+              </div>
+              <img className="slideimg" src={Pic2} alt="pic2" />
             </div>
             <div className="slide">
-              <img src={Pic3} alt="pic3" />
+              <div className="picicon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/nurse-female.png"
+                  alt="Nurseicon"
+                />
+                <h6>
+                  Licenced and registered nurses, home health aides and CNAs
+                </h6>
+              </div>
+              <img className="slideimg" src={Pic3} alt="pic3" />
             </div>
             <div className="slide">
-              <img src={Pic4} alt="pic4" />
+              <div className="picicon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
+                  alt="24/7icon"
+                />
+                <h6>24/7 On-Site Staff</h6>
+              </div>
+              <img className="slideimg" src={Pic4} alt="pic4" />
             </div>
 
             <div className="navigation-auto">
