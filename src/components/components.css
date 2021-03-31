@@ -191,7 +191,11 @@ button {
   color: #5893d4;
   display: inline;
 }
-
+.Titlediv2 {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
 .Licence1 {
   width: 300px;
   margin-top: 40px;
@@ -394,10 +398,16 @@ h6 {
   margin-top: 30px;
   text-align: center;
 }
+.Homemore h3 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
 
 .firsticon {
   display: inline-table;
   width: 12vw;
+  background-color: #5893d4;
+  color: aliceblue;
   margin-left: 4vw;
   margin-right: 4vw;
   margin-bottom: 4vh;
@@ -409,6 +419,8 @@ h6 {
 .secondicon {
   display: inline-table;
   text-align: center;
+  background-color: #5893d4;
+  color: aliceblue;
   width: 12vw;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -419,6 +431,8 @@ h6 {
 .thirdicon {
   display: inline-table;
   text-align: center;
+  background-color: #5893d4;
+  color: aliceblue;
   width: 12vw;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -429,6 +443,8 @@ h6 {
 .forthicon {
   display: inline-table;
   text-align: center;
+  background-color: #5893d4;
+  color: aliceblue;
   width: 12vw;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -439,6 +455,8 @@ h6 {
 .fifthicon {
   display: inline-table;
   text-align: center;
+  background-color: #5893d4;
+  color: aliceblue;
   width: 12vw;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -1280,5 +1298,12 @@ h6 {
 .Homeservices2 {
   width: 100%;
   display: inline-table;
+}
+.slider {
+  width: 100vw;
+  margin-top: 220px;
+  height: 435px;
+  position: relative;
+  overflow: hidden;
 }
 }

@@ -65,32 +65,50 @@ export default class home extends Component {
           </div>
         </div>
         <div className="Homemore">
+          <div className="Titlediv2">
+            <h3 className="Title">SOME KEY FEATURES OF OUR</h3>{" "}
+            <h3 className="Title2"> SKILLED NURSING SERVICES</h3>
+          </div>
+
           <div className="firsticon">
-          <img src="https://img.icons8.com/bubbles/100/000000/domain.png" alt="internet"/>
-          <h6>Amenities including in-room wifi and cable</h6>
+            <img
+              src="https://img.icons8.com/bubbles/100/000000/domain.png"
+              alt="internet"
+            />
+            <h6>Amenities including in-room wifi and cable</h6>
           </div>
           <div className="secondicon">
-          <img src="https://img.icons8.com/bubbles/100/000000/home.png" alt="Homeicon"/>
-          <h6>Homely environment</h6>
+            <img
+              src="https://img.icons8.com/bubbles/100/000000/home.png"
+              alt="Homeicon"
+            />
+            <h6>Homely environment</h6>
           </div>
           <div className="thirdicon">
-          <img src="https://img.icons8.com/bubbles/100/000000/lock.png" alt="Securityicon"/>
-          <h6>Home Security Device</h6>
+            <img
+              src="https://img.icons8.com/bubbles/100/000000/lock.png"
+              alt="Securityicon"
+            />
+            <h6>Home Security Device</h6>
           </div>
           <div className="forthicon">
-          <img src="https://img.icons8.com/bubbles/100/000000/nurse-female.png" alt="Nurseicon"/>
-          <h6>Licenced and registered nurses, home health aides and CNAs</h6>  
-       
+            <img
+              src="https://img.icons8.com/bubbles/100/000000/nurse-female.png"
+              alt="Nurseicon"
+            />
+            <h6>Licenced and registered nurses, home health aides and CNAs</h6>
           </div>
           <div className="fifthicon">
-          <img src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"  alt="24/7icon"/>
-          <h6>24/7 On-Site Staff</h6> 
-           
+            <img
+              src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
+              alt="24/7icon"
+            />
+            <h6>24/7 On-Site Staff</h6>
           </div>
         </div>
         <div className="Testimonials">
           <div className="Testimonialtext1">
-            <h3>Testimonial</h3>
+            <h3>TESTIMONIAL</h3>
             <img className="Quotepic" src={Pic3} alt="quote-pic" />
             <h3>Richard Green</h3>
             <h3 className="Fatherof">Father of Divine Care Resident</h3>
@@ -121,18 +139,26 @@ export default class home extends Component {
             </h6>
           </div>
           <div className="Testimonialtext2">
-            <h3>Testimonial</h3>
+            <h3>TESTIMONIAL</h3>
             <img className="Quotepic" src={Pic3} alt="quote-pic" />
             <h3>Dianne</h3>
             <h3 className="Fatherof">Father of Divine Care Resident</h3>
             <h6>
-              I was introduced to Divine Care about 3 years ago. I immediately noticed the Genuine Sincerity of Fentu Zewdie and Staff in their concern for wellbeing of her clients.
+              I was introduced to Divine Care about 3 years ago. I immediately
+              noticed the Genuine Sincerity of Fentu Zewdie and Staff in their
+              concern for wellbeing of her clients.
             </h6>
             <h6>
-             Its been a great experience ever since. I am impressed by the professional staff and support provided, and by the strong "can do" spirit -no matter the task. Divine Care develops person centered quality living experiences for individual with disabilities. All patients are treated with respect and dignity. 
+              Its been a great experience ever since. I am impressed by the
+              professional staff and support provided, and by the strong "can
+              do" spirit -no matter the task. Divine Care develops person
+              centered quality living experiences for individual with
+              disabilities. All patients are treated with respect and dignity.
             </h6>
             <h6>
-            My brother Renton Ramsamooj has been a resident there for almost three years and he is happy and satisfied with his care and love from Divine Care. Thank you 
+              My brother Renton Ramsamooj has been a resident there for almost
+              three years and he is happy and satisfied with his care and love
+              from Divine Care. Thank you
             </h6>
           </div>
         </div>
