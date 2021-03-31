@@ -223,14 +223,14 @@ h6 {
   padding: 0;
   height: 217px;
   display: flex;
-  justify-content: center;
+  position: relative;
   align-items: center;
 }
 .slider {
   width: 100vw;
   margin-top: 220px;
   height: 435px;
-  position: absolute;
+  position: relative;
   overflow: hidden;
 }
 .slides {
