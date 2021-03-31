@@ -1260,4 +1260,7 @@ h6 {
   align-items: center;
   display: inline-flex;
 }
+.picicon {
+    display: none;
+}
 }
