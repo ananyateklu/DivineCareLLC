@@ -9,7 +9,7 @@ export default class Slider extends Component {
     super(props);
 
     this.state = {
-      counter: 1,
+      
     };
   }
   componentDidMount() {
