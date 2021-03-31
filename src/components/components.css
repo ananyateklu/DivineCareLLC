@@ -1076,6 +1076,9 @@ h6 {
     margin-left: 0;
     margin-right: 0;
   }
+  .Contactinput input {
+    border: 0.5px solid rgba(21, 69, 124, 0.3);
+  }
   .Contactinput textarea {
     height: 155px;
     width: 90%;
