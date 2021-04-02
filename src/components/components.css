@@ -190,6 +190,13 @@
   font-weight: 500;
   color: #2169bb;
 }
+.icons8 {
+  padding: 0;
+  margin: 0;
+}
+.icons8:visited {
+  color: #2169bb;
+}
 /* CSS for footer component ends here */
 
 /* CSS for Home component starts here */
