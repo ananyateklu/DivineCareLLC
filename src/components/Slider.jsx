@@ -31,7 +31,7 @@ export default class Slider extends Component {
           counter = 1;
         }
       }
-    }, 5000);
+    }, 7000);
   }
 
   render() {
