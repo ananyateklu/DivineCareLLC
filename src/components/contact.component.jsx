@@ -80,19 +80,19 @@ class contact extends Component {
             <form onSubmit={this.sendEmail}>
               <div className="Nameinput">
                 <h4>Name</h4>
-                <input className="inputs" type="text" name="Name"></input>
+                <input className="inputs" type="text" name="Name" required></input>
               </div>
               <div className="Phoneinput">
                 <h4>Phone</h4>
-                <input className="inputs"  type="number" name="Phone"></input>
+                <input className="inputs"  type="number" name="Phone" required></input>
               </div>
               <div className="Emailinput">
                 <h4>Email</h4>
-                <input className="inputs"  type="email" name="Email"></input>
+                <input className="inputs"  type="email" name="Email" required></input>
               </div>
               <div className="Lastinput">
                 <h4>Comments/Questions</h4>
-                <textarea name="Comments"></textarea>
+                <textarea name="Comments" required></textarea>
                 <div className="Submitbuttondiv">
                   <input
                     type="submit"
