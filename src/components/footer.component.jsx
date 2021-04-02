@@ -35,7 +35,7 @@ export default class footer extends Component {
                         improvement Amendments certificates</h6>
                 </div>   
                 <div className="Copyright">
-                    <h6>© 2021, Divine Care LLC Home Care. All Rights Reserved.</h6>
+                    <h6>© 2021, Divine Care LLC Home Care. All Rights Reserved.    Powered by <a className="icons8" href="https://icons8.com" rel="noreferrer" target="_blank">icons8</a></h6>
                 </div>          
             </div>
         )
