@@ -22,7 +22,7 @@ export default class home extends Component {
           <h6>
             When it comes to healthcare assistance, it is essential to make sure
             that the person seeking assistance receives holistic care. Divine
-            Care LLC is primarily engaged inproviding personalized medical
+            Care LLC is primarily engaged in providing personalized medical
             assistance such as skilled nursing, home care aide and therapeutic
             services through person-centered assistance living for people of all
             ages.
