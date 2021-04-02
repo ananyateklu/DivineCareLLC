@@ -530,7 +530,7 @@ h6 {
 .divslider {
   position: relative;
   display: inline-table;
-  width: 100%;
+  width: 96%;
   margin-top: 70px;
   height: 440px;
   display: flex;
