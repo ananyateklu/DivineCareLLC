@@ -530,7 +530,7 @@ h6 {
 .divslider {
   position: relative;
   display: inline-table;
-  width: 96%;
+  width: 100%;
   margin-top: 70px;
   height: 440px;
   display: flex;
@@ -576,6 +576,7 @@ h6 {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+  width: 90%;
 }
 .Quotepic {
   width: 90px;
