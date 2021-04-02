@@ -104,7 +104,7 @@ export default class header extends Component {
             >
               LOCATION
             </NavLink>
-            <button>APPLY NOW</button>
+            <a className="ApplyButton" href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing" rel="noreferrer" target="_blank">APPLY NOW</a>
           </div>
         </header>
       </div>

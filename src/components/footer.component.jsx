@@ -17,13 +17,15 @@ export default class footer extends Component {
                         <h3 className="footerh3">Email: fzewdie@divincaremn.com</h3>
                     </div>
                     <div className="Flexfooter2">
-                    <Link to="/">HOME</Link>
-                    <Link to="/aboutus">ABOUT US</Link>
-                    <Link to="/services">OUR SERVICES</Link>
-                    <Link to="/contactus">CONTACT US</Link>
-                    <Link to="/location">LOCATION</Link>
-                    <button className="Footerbutton">APPLY NOW</button>    
+                    <Link className="footerlinks" to="/">HOME</Link>
+                    <Link className="footerlinks"  to="/aboutus">ABOUT US</Link>
+                    <Link className="footerlinks" to="/services">OUR SERVICES</Link>
+                    <Link className="footerlinks" to="/contactus">CONTACT US</Link>
+                    <Link className="footerlinks" to="/location">LOCATION</Link>
+                    <br/>
+                    <a className="Footerbutton" href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing" rel="noreferrer" target="_blank">APPLY NOW</a>
                     </div>
+                    
                 </div>
 
                 <div className="Licence">
