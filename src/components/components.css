@@ -507,7 +507,9 @@ h6 {
 .Testimonials {
   padding-bottom: 30px;
   margin-top: 70px;
+  text-align: center;
   margin-bottom: 70px;
+  height: auto;
 }
 .Testimonials h6 {
   font-weight: 500;
@@ -521,6 +523,59 @@ h6 {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+.Divslide {
+  position: relative;
+}
+.divslider {
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  margin-top: 70px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 220px;
+  font-size: 3rem;
+  color: #5893d4;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 220px;
+  font-size: 3rem;
+  color: #5893d4;
+  z-index: 2;
+  cursor: pointer;
+  user-select: none;
+}
+
+.divslide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.divslide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
 }
 .Quotepic {
   width: 90px;
@@ -1220,15 +1275,17 @@ h6 {
   .Testimonials {
     padding-bottom: 30px;
     margin-top: 70px;
+    width: 100%;
     margin-bottom: 70px;
+    height: auto;
   }
   .Testimonialtext1 {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
   }
   .Testimonialtext2 {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
   }
@@ -1239,6 +1296,37 @@ h6 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+  }
+  .divslider {
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    margin-top: 70px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 3rem;
+    color: #5893d4;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 3rem;
+    color: #5893d4;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
   }
   .Quotepic {
     width: 90px;
