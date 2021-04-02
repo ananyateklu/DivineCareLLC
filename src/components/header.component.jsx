@@ -28,7 +28,8 @@ export default class header extends Component {
                     <Link className="link" to="/services">OUR SERVICES</Link>
                     <Link className="link" to="/contactus">CONTACT US</Link>
                     <Link className="link" to="/location">LOCATION</Link>
-                    <button className="Headerbutton">APPLY NOW</button>    
+                    <br/>
+                    <a className="ApplyButton" href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing" rel="noreferrer" target="_blank">APPLY NOW</a>   
                     </div>
           <div className="Links">
             <NavLink

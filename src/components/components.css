@@ -1508,6 +1508,24 @@ h6 {
 .Agegroup ul {
   padding: 10px;
 }
+.ApplyButton {
+  background-color: #5893d4;
+  color: aliceblue;
+  border: 2px solid #d9d9d9;
+  font-size: 14px;
+  margin-right: 0px;
+  border-radius: 3px;
+
+}
+.ApplyButton:hover {
+  margin: 0px;
+  background-color: aliceblue;
+  color: #5893d4;
+  border: 2px solid #d9d9d9;
+  font-size: 14px;
+  margin-right: 0px;
+  border-radius: 3px;
+}
 }
 
 @media only screen and (max-width: 600px) {
