@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import Aboutpic from "../assets/aboutuspic12.jpg";
 
 export default class about extends Component {
-
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
   render() {
     return (
@@ -17,7 +16,7 @@ export default class about extends Component {
             alt="about"
             src="https://img.icons8.com/dusk/128/000000/about.png"
           />
-           <div className="Titlediv">
+          <div className="Titlediv">
             <h3 className="Title">ABOUT</h3>
             <h3 className="Title2"> DIVINE CARE LLC</h3>
           </div>
@@ -41,6 +40,33 @@ export default class about extends Component {
             equipped ourselves to a full-service customized adult living
             facility providing all kind of services from high-health needs,
             mechanical transfers to specialty assistance with day to day chores.
+          </h6>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <h3 className="Title">Meet </h3> <h3 className="Title2"> Fentu Zewdie, RN</h3> 
+          <h6>
+            Working as a nurse since 1988, Fentu Zewdie, RN holds over 26 years
+            of experience in hospital settings and intensive care unit (ICU).
+            Over these years, she was associated with coveted medical
+            institutions like MD Anderson Cancer Centre in Texas and the Abbot
+            North-Western Hospital in Minnesota. Married, with four grown kids,
+            Fentu is a follower of the Christian faith.{" "}
+          </h6>
+          <h6>
+            From being a floor nurse to now owning and managing an customized
+            living facility, Fentu has come a long way. Her mission behind the
+            establishment of Divine CareLLC is to move the people of Minnesota
+            from nursing home to a home-based care environment where they can
+            live within the community and maintain optimal health.{" "}
+          </h6>
+          <h6>
+            Fentu has always been passionate about seeing people grow and
+            helping them turn their life around. For her,its not just about
+            providing healthcare assistance or aiding residents in their day to
+            day tasks like feeding or cleaning; she wants everyone to strive in
+            the community an cherish their independence.
           </h6>
         </div>
       </div>
