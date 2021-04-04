@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Pic2 from "../assets/homeskill.jpg";
 import Slider from "./Slider";
-import Licence1 from "../assets/Licence1.png";
 import Homecomp from "../assets/Homecomp4.jpg";
 import DivSlider from "./DivSlider";
 import { DivSliderData } from './DivSliderData';
@@ -34,7 +33,6 @@ export default class home extends Component {
             LLC, we not only aim to optimize the health of our client but also
             encourage them to engage within the community and be independent.
           </h6>
-          <img className="Licence1" src={Licence1} alt="Licence" />
         </div>
         <div className="Homeservices">
           <img className="Homeskillpic" src={Pic2} alt="pic2" />

@@ -22,7 +22,7 @@
 .Links {
   display: inline;
   float: right;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 .Links a {
@@ -219,8 +219,11 @@
   padding-bottom: 60px;
 }
 .Licence1 {
-  width: 300px;
-  margin-top: 40px;
+  width: 200px;
+  position: relative;
+  padding: 0;
+  margin-top: -20px;
+  float: right;
 }
 
 a {
@@ -1061,7 +1064,7 @@ h6 {
 /* CSS for location component ends here */
 
 /* CSS Styling for mobile version */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
   .Burger {
     position: absolute;
     right: 20px;

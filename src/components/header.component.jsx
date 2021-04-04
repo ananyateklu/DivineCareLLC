@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi"
 import "./components.css";
 import { Link } from 'react-router-dom';
+import Licence1 from "../assets/Licence1.png";
 export default class header extends Component {
   
   state = {
@@ -29,7 +30,7 @@ export default class header extends Component {
                     <Link className="link" to="/contactus">CONTACT US</Link>
                     <Link className="link" to="/location">LOCATION</Link>
                     <br/>
-                    <a className="ApplyButton" href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing" rel="noreferrer" target="_blank">APPLY NOW</a>   
+                    <a className="ApplyButton" href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing" rel="noreferrer" target="_blank">APPLY NOW</a>  
                     </div>
           <div className="Links">
             <NavLink
@@ -106,6 +107,7 @@ export default class header extends Component {
               LOCATION
             </NavLink>
             <a className="ApplyButton" href="https://drive.google.com/file/d/1GIHt1QLGl8RKLgSOyeDIg1rlJMD_f5hA/view?usp=sharing" rel="noreferrer" target="_blank">APPLY NOW</a>
+            <img className="Licence1" src={Licence1} alt="Licence" /> 
           </div>
         </header>
       </div>
