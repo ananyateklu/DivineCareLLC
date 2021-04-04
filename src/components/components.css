@@ -612,43 +612,6 @@ h6 {
 
 /* CSS for home component ends here */
 
-/* .image {
-    width: 100%;
-  }
-  
-  .right-arrow {
-    position: absolute;
-    top: 300px;
-    right: 32px;
-    font-size: 3rem;
-    color: #5D92E8;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .left-arrow {
-    position: absolute;
-    top: 300px;
-    left: 32px;
-    font-size: 3rem;
-    color: #5D92E8;
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-  } */
-
-/* .slide {
-    opacity: 0;
-    transition-duration: 1s ease;
-  }
-  
-  .slide.active {
-    opacity: 1;
-    transition-duration: 1s;
-    transform: scale(1.08);
-  } */
-
 /* CSS for about page starts here */
 .About {
   width: 80vw;
@@ -663,18 +626,6 @@ h6 {
 .Aboutpic img {
   width: 100%;
 }
-/* .Abouttitle {
-  color: black;
-  display: inline;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-.Abouttitle2 {
-  display: inline;
-  color: #4f89e8;
-  font-weight: 700;
-  margin-bottom: 30px;
-} */
 
 .Abouttext {
   text-align: center;
@@ -688,11 +639,6 @@ h6 {
   margin-top: 15px;
 }
 
-/* .Abouttext h3 {
-  color: #4f89e8;
-  font-weight: 700;
-  margin-bottom: 30px;
-} */
 
 .Abouttext h6 {
   color: #1656a0;
@@ -732,11 +678,6 @@ h6 {
   margin-top: 15px;
 }
 
-/* .Servicestext h3 {
-  color: #4f89e8;
-  font-weight: 700;
-  margin-bottom: 10px;
-} */
 
 .Servicestext h4 {
   color: #4f89e8;
