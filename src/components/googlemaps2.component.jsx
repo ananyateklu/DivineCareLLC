@@ -5,8 +5,6 @@ require("dotenv").config();
 // ...
 
 export class MapContainer extends React.Component {
-
-
   render() {
     const style = {
       position: "absolute",
@@ -20,7 +18,6 @@ export class MapContainer extends React.Component {
       borderRadius: "10px",
       border: "solid 2px #7daaf3",
     };
-
 
     return (
       <div className="MapComponent">

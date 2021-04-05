@@ -32,9 +32,9 @@ export class MapContainer extends React.Component {
           style={style}
           initialCenter={{ lat: 44.71562073515013, lng: -93.24792898688428 }}
         >
-          <Marker onClick={this.onMarkerClick} name={"Current location"} />
+          <Marker onClick={this.onMarkerClick} text={"Office"} />
 
-          <InfoWindow onClose={this.onInfoWindowClose}></InfoWindow>
+          <InfoWindow visible={"hey"} onClose={this.onInfoWindowClose}></InfoWindow>
         </Map>
       </div>
     );

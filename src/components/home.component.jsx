@@ -3,7 +3,7 @@ import Pic2 from "../assets/homeskill.jpg";
 import Slider from "./Slider";
 import Homecomp from "../assets/Homecomp4.jpg";
 import DivSlider from "./DivSlider";
-import { DivSliderData } from './DivSliderData';
+import { DivSliderData } from "./DivSliderData";
 
 export default class home extends Component {
   componentDidMount() {
@@ -106,7 +106,7 @@ export default class home extends Component {
           </div>
         </div>
         <div className="Testimonials">
-        <h3>TESTIMONIAL</h3>
+          <h3>TESTIMONIAL</h3>
           <DivSlider slides={DivSliderData} />
         </div>
       </div>

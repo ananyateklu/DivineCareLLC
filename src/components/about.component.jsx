@@ -28,7 +28,6 @@ export default class about extends Component {
             step on your road to optimize your health while providing quality
             medical service and attentive support.
           </h6>
-
           <h6>
             Our customized person-centered living facility is equipped to
             accommodate four clients per house, with one staff member available
@@ -41,11 +40,12 @@ export default class about extends Component {
             facility providing all kind of services from high-health needs,
             mechanical transfers to specialty assistance with day to day chores.
           </h6>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <h3 className="Title">Meet </h3> <h3 className="Title2"> Fentu Zewdie, RN</h3> 
+          <br />
+          <br />
+          <br />
+          <br />
+          <h3 className="Title">Meet </h3>{" "}
+          <h3 className="Title2"> Fentu Zewdie, RN</h3>
           <h6>
             Working as a nurse since 1988, Fentu Zewdie, RN holds over 26 years
             of experience in hospital settings and intensive care unit (ICU).

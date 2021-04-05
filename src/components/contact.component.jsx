@@ -75,20 +75,34 @@ class contact extends Component {
           </div>
         </div>
         <div className="Contacttext">
-       
           <div className="Contactinput">
             <form onSubmit={this.sendEmail}>
               <div className="Nameinput">
                 <h4>Name</h4>
-                <input className="inputs" type="text" name="Name" required></input>
+                <input
+                  className="inputs"
+                  type="text"
+                  name="Name"
+                  required
+                ></input>
               </div>
               <div className="Phoneinput">
                 <h4>Phone</h4>
-                <input className="inputs"  type="number" name="Phone" required></input>
+                <input
+                  className="inputs"
+                  type="number"
+                  name="Phone"
+                  required
+                ></input>
               </div>
               <div className="Emailinput">
                 <h4>Email</h4>
-                <input className="inputs"  type="email" name="Email" required></input>
+                <input
+                  className="inputs"
+                  type="email"
+                  name="Email"
+                  required
+                ></input>
               </div>
               <div className="Lastinput">
                 <h4>Comments/Questions</h4>
@@ -104,15 +118,14 @@ class contact extends Component {
             </form>
           </div>
           <div className="Divmap">
-          {/* Google maps */}
-          <Gmap />
+            {/* Google maps */}
+            <Gmap />
+          </div>
+          <div className="Divmapmobile">
+            {/* Google maps */}
+            <Gmap2 />
+          </div>
         </div>
-        <div className="Divmapmobile">
-          {/* Google maps */}
-          <Gmap2 />
-        </div>
-        </div>
-        
       </div>
     );
   }

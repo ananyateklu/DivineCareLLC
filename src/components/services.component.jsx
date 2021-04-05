@@ -2,11 +2,10 @@ import React, { Component } from "react";
 import Servicespic from "../assets/extra1.jpg";
 
 export default class services extends Component {
-
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }
-  
+
   render() {
     return (
       <div className="Services">
@@ -15,11 +14,14 @@ export default class services extends Component {
         </div>
         <div className="Servicestext">
           <div className="Servicestitle">
-            <img alt="services" src="https://img.icons8.com/dusk/100/000000/treatment-plan.png"/>
+            <img
+              alt="services"
+              src="https://img.icons8.com/dusk/100/000000/treatment-plan.png"
+            />
             <div className="Titlediv">
-            <h3 className="Title">SERVICES PROVIDED BY</h3>
-            <h3 className="Title2"> DIVINE CARE LLC</h3>
-          </div>
+              <h3 className="Title">SERVICES PROVIDED BY</h3>
+              <h3 className="Title2"> DIVINE CARE LLC</h3>
+            </div>
             {/* <h3>SERVICES PROVIDED BY DIVINE CARE LLC</h3> */}
           </div>
           <h4>HOME CARE SERVICES</h4>
@@ -72,11 +74,10 @@ export default class services extends Component {
             </ul>
           </div>
           <div className="Agegroup">
-          <h4>AGE GROUP</h4>
-              <ul>
-                  <li>18 and older</li>
-              </ul>
-              
+            <h4>AGE GROUP</h4>
+            <ul>
+              <li>18 and older</li>
+            </ul>
           </div>
         </div>
       </div>
