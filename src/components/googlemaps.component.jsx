@@ -3,10 +3,7 @@ import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 import "./components.css";
 require("dotenv").config();
 // ...
-
 export class MapContainer extends React.Component {
-
-
   render() {
     const style = {
       position: "absolute",
@@ -21,7 +18,6 @@ export class MapContainer extends React.Component {
       border: "solid 2px #7daaf3",
     };
 
-
     return (
       <div className="MapComponent">
         <Map
@@ -32,9 +28,8 @@ export class MapContainer extends React.Component {
           style={style}
           initialCenter={{ lat: 44.71562073515013, lng: -93.24792898688428 }}
         >
-          <Marker onClick={this.onMarkerClick} text={"Office"} />
-
-          <InfoWindow visible={"hey"} onClose={this.onInfoWindowClose}></InfoWindow>
+          <Marker onClick={this.onMarkerClick} />
+          <InfoWindow onClose={this.onInfoWindowClose}></InfoWindow>
         </Map>
       </div>
     );

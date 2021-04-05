@@ -1217,6 +1217,7 @@ h6 {
     width: 100%;
     position: relative;
     float: left;
+    height: 700px;
     margin: -5px -10px -10px -5px;
     filter: blur(16px);
   }
