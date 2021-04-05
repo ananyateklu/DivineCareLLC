@@ -201,7 +201,7 @@
 /* CSS for Home component starts here */
 .Titlediv {
   margin-top: 10px;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 .Title {
@@ -634,7 +634,7 @@ h6 {
 }
 
 .Abouttext img {
-  width: 70px;
+  width: 50px;
   margin-top: 15px;
 }
 
@@ -672,7 +672,7 @@ h6 {
 }
 
 .Servicestitle img {
-  width: 70px;
+  width: 50px;
   margin-top: 15px;
 }
 
@@ -680,7 +680,7 @@ h6 {
   color: #4f89e8;
   font-weight: 700;
   margin-bottom: 30px;
-  margin-top: 70px;
+  margin-top: 40px;
   font-size: large;
 }
 

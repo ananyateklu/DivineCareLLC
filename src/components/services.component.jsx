@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Servicespic from "../assets/extra1.jpg";
+import Servicespic from "../assets/homepic2.jpg";
 
 export default class services extends Component {
   componentDidMount() {
