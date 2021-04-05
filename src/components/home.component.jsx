@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Pic2 from "../assets/homeskill.jpg";
+import Pic2 from "../assets/new7.jpg";
 import Slider from "./Slider";
 import Homecomp from "../assets/Homecomp4.jpg";
 import DivSlider from "./DivSlider";
