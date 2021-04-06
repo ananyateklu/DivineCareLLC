@@ -225,6 +225,13 @@
   float: right;
 }
 
+.Licence2 {
+  width: 250px;
+  position: relative;
+  padding: 0;
+  margin-top: 50px;
+}
+
 a {
   padding-right: 30px;
   padding-left: 30px;
@@ -506,7 +513,6 @@ h6 {
   width: 85%;
   margin: 0 auto;
   margin-top: 260px;
-  margin-bottom: 70px;
 }
 .Homewelcome h6 {
   font-weight: 500;
