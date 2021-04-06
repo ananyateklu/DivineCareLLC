@@ -51,15 +51,15 @@ export default class about extends Component {
             <br />
             <br />
             <br />
-            <h3 className="Title">Meet </h3>{" "}
-            <h3 className="Title2"> Fentu Zewdie, RN</h3>
+            <h3 className="Title">MEET THE FOUNDER OF</h3>{" "}
+            <h3 className="Title2">DIVINE CARE LLC</h3>
             <h6>
               Working as a nurse since 1988, Fentu Zewdie, RN holds over 26
               years of experience in hospital settings and intensive care unit
               (ICU). Over these years, she was associated with coveted medical
-              institutions like MD Anderson Cancer Centre in Texas and the Abbot
-              North-Western Hospital in Minnesota. Married, with four grown
-              kids, Fentu is a follower of the Christian faith.{" "}
+              institutions like MD Anderson Cancer Centre in Houston, Texas and
+              the Abbott North-Western Hospital in Minnesota. Married, with four
+              grown kids, Fentu is a follower of the Christian faith.{" "}
             </h6>
             <h6>
               From being a floor nurse to now owning and managing an customized
@@ -70,9 +70,9 @@ export default class about extends Component {
             </h6>
             <h6>
               Fentu has always been passionate about seeing people grow and
-              helping them turn their life around. For her,its not just about
+              helping them turn their life around. For her, its not just about
               providing healthcare assistance or aiding residents in their day
-              to day tasks like feeding or cleaning; she wants everyone to
+              to day tasks like feeding or cleaning, but also wants everyone to
               strive in the community an cherish their independence.
             </h6>
           </div>

@@ -24,14 +24,10 @@ export default class home extends Component {
             Care LLC is primarily engaged in providing personalized medical
             assistance such as skilled nursing, home care aide and therapeutic
             services through person-centered assistance living for people of all
-            ages.
-          </h6>
-          <h6>
-            Aging adults and senior residents require special healthcare
-            assistance that should focus not only on physical and mental health
-            but also on their spiritual and social well-being. At Divine Care
-            LLC, we not only aim to optimize the health of our client but also
-            encourage them to engage within the community and be independent.
+            ages. Our care focuses not only on physical and mental health, but
+            also on their spiritual and social well-being. At Divine Care LLC,
+            we not only aim to optimize the health of our client but also
+            encourage them to engage within the community.
           </h6>
         </div>
         <div className="Homeservices">
@@ -40,18 +36,18 @@ export default class home extends Component {
             <div className="flex-containerhome">
               <div className="flex1">
                 <div className="flex1in">
-                  <h3>SKILLED NURSING FACILITIES AT DIVINE CARE LLC</h3>
+                  <h3>SKILLED NURSING HOMES AT DIVINE CARE LLC</h3>
                   <h6>
                     Our residential home, customized person center is equipped
                     to accommodate a maximum of 4 residents per house to create
-                    the environment of home away from home.There can be many
+                    the environment of home away from home. There can be many
                     occasions when you or your family member might require
-                    medical attention. Divine Care provides home care aide
-                    service wherein licensed medical professionals, and skilled
-                    nurses deliver therapeutic services and day to day care and
-                    assistance in the comfort of our customized living/ assisted
-                    living. We are here to provide you with all the support you
-                    need towards living a better life.
+                    medical attention, therapeutic services, and assistance with
+                    activities of daily living. These are all services that can
+                    be provided at Divine Care by our skilled nurses and home
+                    health aide staff at the comfort of our customized
+                    living/assisted living homes. We are here to provide you
+                    with all the support you need towards living a better life.
                   </h6>
                 </div>
               </div>
@@ -95,14 +91,25 @@ export default class home extends Component {
               src="https://img.icons8.com/bubbles/100/000000/nurse-female.png"
               alt="Nurseicon"
             />
-            <h6>Licenced and registered nurses, home health aides and CNAs</h6>
+            <h6>
+              Registered nurses, Licensed Practical nurses, and home health
+              aides and CNAs
+            </h6>
           </div>
           <div className="fifthicon">
             <img
               src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
               alt="24/7icon"
             />
-            <h6>24/7 On-Site Staff</h6>
+            <h6>24/7 On-Site and Night Awake Staff</h6>
+          </div>
+          <div className="sixthicon">
+            <img
+              src="https://img.icons8.com/office/100/000000/bus2.png"
+              alt="van"
+            />
+
+            <h6>Transportation</h6>
           </div>
         </div>
         <div className="Testimonials">

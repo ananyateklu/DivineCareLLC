@@ -71,7 +71,7 @@ class contact extends Component {
               src="https://img.icons8.com/dusk/100/000000/fax.png"
             />
             <h4>Fax</h4>
-            <h6>(952) 426-3745</h6>
+            <h6>(952) 681-2410</h6>
           </div>
         </div>
         <div className="Contacttext">

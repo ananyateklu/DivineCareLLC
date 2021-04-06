@@ -39,7 +39,7 @@ export const DivSliderData = [
       <div className="Testimonialtext2">
         <img className="Quotepic" src={Pic3} alt="quote-pic" />
         <h3>Dianne</h3>
-        <h3 className="Fatherof">Father of Divine Care Resident</h3>
+        <h3 className="Fatherof">Sister of Divine Care Resident</h3>
         <h6>
           I was introduced to Divine Care about 3 years ago. I immediately
           noticed the Genuine Sincerity of Fentu Zewdie and Staff in their

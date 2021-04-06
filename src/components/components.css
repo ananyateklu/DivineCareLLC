@@ -429,11 +429,11 @@ h6 {
 
 .firsticon {
   display: inline-table;
-  width: 12vw;
+  width: 10vw;
   background-color: #5893d4;
   color: aliceblue;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   margin-bottom: 4vh;
   text-align: center;
   height: 200px;
@@ -445,7 +445,7 @@ h6 {
   text-align: center;
   background-color: #5893d4;
   color: aliceblue;
-  width: 12vw;
+  width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
@@ -457,7 +457,7 @@ h6 {
   text-align: center;
   background-color: #5893d4;
   color: aliceblue;
-  width: 12vw;
+  width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
@@ -469,7 +469,7 @@ h6 {
   text-align: center;
   background-color: #5893d4;
   color: aliceblue;
-  width: 12vw;
+  width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;
@@ -481,7 +481,19 @@ h6 {
   text-align: center;
   background-color: #5893d4;
   color: aliceblue;
-  width: 12vw;
+  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 200px;
+  border-radius: 25px;
+  border: 4px solid #5893d4;
+}
+.sixthicon {
+  display: inline-table;
+  text-align: center;
+  background-color: #5893d4;
+  color: aliceblue;
+  width: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   height: 200px;

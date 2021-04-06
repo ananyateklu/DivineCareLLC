@@ -71,7 +71,8 @@ export default class Slider extends Component {
                   alt="Nurseicon"
                 />
                 <h6>
-                  Licenced and registered nurses, home health aides and CNAs
+                  Registered nurses, Licensed practical nurses, home health
+                  aides, and CNAs
                 </h6>
               </div>
               <img className="slideimg" src={Pic3} alt="pic3" />
@@ -82,7 +83,7 @@ export default class Slider extends Component {
                   src="https://img.icons8.com/bubbles/100/000000/last-24-hours.png"
                   alt="24/7icon"
                 />
-                <h6>24/7 On-Site Staff</h6>
+                <h6>24/7 On-Site and Night Awake Staff</h6>
               </div>
               <img className="slideimg" src={Pic4} alt="pic4" />
             </div>

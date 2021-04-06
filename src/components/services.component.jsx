@@ -33,7 +33,7 @@ export default class services extends Component {
             <div className="Homeservices1">
               <ul>
                 <li>Registered Nurse Services</li>
-                <li>Licenses Practical Nurse Services</li>
+                <li>Licensed Practical Nurse Services</li>
                 <li>Medication Management Services</li>
                 <li>
                   Preparing modified diets ordered by licensed health
@@ -52,7 +52,7 @@ export default class services extends Component {
             <div className="Homeservices2">
               <ul>
                 <li>Hands-on assistance with transfers and mobility</li>
-                <li>LaundryHousekeeping/ Other household chores</li>
+                <li>Laundry, Housekeeping and other household chores</li>
 
                 <li>Complex or Specialty Care services</li>
                 <li>Delegated tasks to unlicensed personnel</li>
@@ -61,7 +61,7 @@ export default class services extends Component {
                   haircare, grooming, toileting, and bathing
                 </li>
                 <li>
-                  Providing standby assistance within arm's reach for safety
+                  Providing standby assistance within arms reach for safety
                   while performing daily activities
                 </li>
                 <li>
@@ -75,7 +75,6 @@ export default class services extends Component {
               <ul>
                 <li>Private Pay </li>
                 <li>Medical Assistance</li>
-                <li>CADI Wavier</li>
               </ul>
             </div>
             <div className="Agegroup">
