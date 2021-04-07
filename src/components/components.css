@@ -1049,7 +1049,7 @@ h6 {
 /* CSS for location component ends here */
 
 /* CSS Styling for mobile version */
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1315px) {
   .Header {
     position: fixed;
     background-color: aliceblue;
