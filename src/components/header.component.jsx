@@ -16,7 +16,7 @@ export default class header extends Component {
     const tab_class = this.state.mobile ? "none" : "block";
 
     return (
-      <div className="Header">
+      <div className="Header" onClick={() => this.expandNav()}>
         <header>
           <img className="Logo" src={logo} alt="logo" />
           <div className="Burger">
