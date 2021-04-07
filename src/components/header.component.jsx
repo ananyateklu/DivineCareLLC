@@ -16,7 +16,7 @@ export default class header extends Component {
     const tab_class = this.state.mobile ? "none" : "block";
 
     return (
-      <div className="Header" onClick={() => this.expandNav()}>
+      <div className="Header">
         <header>
           <img className="Logo" src={logo} alt="logo" />
           <div className="Burger">
@@ -39,6 +39,7 @@ export default class header extends Component {
               HOME
             </NavLink>
             <NavLink
+              onClick={() => this.expandNav()}
               activeStyle={{
                 color: "white",
                 backgroundColor: "#5893d4",
@@ -53,6 +54,7 @@ export default class header extends Component {
               ABOUT US
             </NavLink>
             <NavLink
+              onClick={() => this.expandNav()}
               activeStyle={{
                 color: "white",
                 backgroundColor: "#5893d4",
@@ -67,6 +69,7 @@ export default class header extends Component {
               OUR SERVICES
             </NavLink>
             <NavLink
+              onClick={() => this.expandNav()}
               activeStyle={{
                 color: "white",
                 backgroundColor: "#5893d4",
@@ -81,6 +84,7 @@ export default class header extends Component {
               CONTACT US
             </NavLink>
             <NavLink
+              onClick={() => this.expandNav()}
               activeStyle={{
                 color: "white",
                 backgroundColor: "#5893d4",
