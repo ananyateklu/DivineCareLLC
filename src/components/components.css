@@ -218,11 +218,16 @@
   padding-bottom: 60px;
 }
 .Licence1 {
-  width: 170px;
+  width: 200px;
   position: relative;
   padding: 0;
+  margin-right: 30px;
   margin-top: -17px;
   float: right;
+}
+.BBBbutton {
+  margin: 0px;
+  padding: 0px;
 }
 
 .Licence2 {

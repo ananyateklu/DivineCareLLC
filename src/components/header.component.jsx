@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./components.css";
 import { Link } from "react-router-dom";
-import Licence1 from "../assets/Licence1.png";
 export default class header extends Component {
   state = {
     mobile: true,
@@ -131,7 +130,19 @@ export default class header extends Component {
             >
               APPLY NOW
             </a>
-            <img className="Licence1" src={Licence1} alt="Licence" />
+            {/* <img className="Licence1" src={Licence1} alt="Licence" /> */}
+            <a
+              className="BBBbutton"
+              href="https://www.bbb.org/us/mn/lakeville/profile/home-health-care/divine-care-llc-0704-96352970/#sealclick"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="Licence1"
+                src="https://seal-minnesota.bbb.org/seals/blue-seal-280-80-bbb-96352970.png"
+                alt="Divine Care, LLC BBB Business Review"
+              />
+            </a>
           </div>
         </header>
       </div>

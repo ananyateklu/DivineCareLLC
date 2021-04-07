@@ -30,7 +30,14 @@ export default class home extends Component {
             we not only aim to optimize the health of our client but also
             encourage them to engage within the community.
           </h6>
-          <img className="Licence2" src={Licence1} alt="Licence" />
+          <a
+            className="BBBbutton"
+            href="https://www.bbb.org/us/mn/lakeville/profile/home-health-care/divine-care-llc-0704-96352970/#sealclick"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="Licence2" src={Licence1} alt="Licence" />
+          </a>
         </div>
         <div className="Homeservices">
           <img className="Homeskillpic" src={Pic2} alt="pic2" />
