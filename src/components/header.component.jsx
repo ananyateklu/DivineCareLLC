@@ -3,7 +3,6 @@ import logo from "../assets/divinelogom.png";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./components.css";
-import { Link } from "react-router-dom";
 export default class header extends Component {
   state = {
     mobile: true,
@@ -24,21 +23,77 @@ export default class header extends Component {
             <GiHamburgerMenu onClick={() => this.expandNav()} className="Bur" />
           </div>
           <div className="Burgerstuff" style={{ display: tab_class }}>
-            <Link className="link" to="/">
+            <NavLink
+              activeStyle={{
+                color: "white",
+                backgroundColor: "#5893d4",
+                padding: "2px",
+                marginRight: "0px",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+              exact
+              className="link"
+              to="/"
+            >
               HOME
-            </Link>
-            <Link className="link" to="/aboutus">
+            </NavLink>
+            <NavLink
+              activeStyle={{
+                color: "white",
+                backgroundColor: "#5893d4",
+                padding: "2px",
+                marginRight: "0px",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+              className="link"
+              to="/aboutus"
+            >
               ABOUT US
-            </Link>
-            <Link className="link" to="/services">
+            </NavLink>
+            <NavLink
+              activeStyle={{
+                color: "white",
+                backgroundColor: "#5893d4",
+                padding: "2px",
+                marginRight: "0px",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+              className="link"
+              to="/services"
+            >
               OUR SERVICES
-            </Link>
-            <Link className="link" to="/contactus">
+            </NavLink>
+            <NavLink
+              activeStyle={{
+                color: "white",
+                backgroundColor: "#5893d4",
+                padding: "2px",
+                marginRight: "0px",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+              className="link"
+              to="/contactus"
+            >
               CONTACT US
-            </Link>
-            <Link className="link" to="/location">
+            </NavLink>
+            <NavLink
+              activeStyle={{
+                color: "white",
+                backgroundColor: "#5893d4",
+                padding: "2px",
+                marginRight: "0px",
+                paddingTop: "10px",
+                paddingBottom: "10px",
+              }}
+              className="link"
+              to="/location"
+            >
               LOCATION
-            </Link>
+            </NavLink>
             <br />
             <a
               className="ApplyButton"
