@@ -13,7 +13,8 @@
 
 .Header {
   position: fixed;
-  background-color: aliceblue;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
   height: 99px;
   width: 100%;
   z-index: 3;
