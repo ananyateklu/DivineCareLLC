@@ -1050,6 +1050,14 @@ h6 {
 
 /* CSS Styling for mobile version */
 @media only screen and (max-width: 1300px) {
+  .Header {
+    position: fixed;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09), 2px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 109px;
+    width: 100%;
+    z-index: 3;
+  }
   .Burger {
     position: absolute;
     right: 20px;
@@ -1058,6 +1066,7 @@ h6 {
     padding: 0;
     margin: 0;
   }
+
   .Bur {
     color: #5893d4;
     height: 40px;
@@ -1195,7 +1204,7 @@ h6 {
     text-align: center;
     padding-right: 20px;
     width: 150px;
-    background-color: white;
+    background-color: aliceblue;
     height: 280px;
     z-index: 10;
     border-radius: 10px;
