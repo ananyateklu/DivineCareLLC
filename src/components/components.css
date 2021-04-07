@@ -230,6 +230,11 @@
   margin: 0px;
   padding: 0px;
 }
+.BBBfooterb {
+  position: absolute;
+  margin-left: 20vw;
+  top: 160px;
+}
 
 .Licence2 {
   width: 250px;
@@ -1049,7 +1054,7 @@ h6 {
 /* CSS for location component ends here */
 
 /* CSS Styling for mobile version */
-@media only screen and (max-width: 1315px) {
+@media only screen and (max-width: 1330px) {
   .Header {
     position: fixed;
     background-color: aliceblue;
@@ -1057,6 +1062,9 @@ h6 {
     height: 109px;
     width: 100%;
     z-index: 3;
+  }
+  .BBBfooterb {
+    display: none;
   }
   .Burger {
     position: absolute;
