@@ -12,8 +12,8 @@ export default class footer extends Component {
             <h3 className="footerh3">Divine Care</h3>
             <h3 className="footerh3">16125 Hyland Ave, Lakeville, MN 55044</h3>
             <h3 className="footerh3">Cell: (612) 423-9765</h3>
-            <h3 className="footerh3">Work: (952) 977-9171</h3>
-            <h3 className="footerh3">Fax: (952) 426-3745</h3>
+            <h3 className="footerh3">Work: (952) 681-2535</h3>
+            <h3 className="footerh3">Fax: (952) 681-2410</h3>
             <h3 className="footerh3">Email: fzewdie@divincaremn.com</h3>
           </div>
           <div className="Flexfooter2">
