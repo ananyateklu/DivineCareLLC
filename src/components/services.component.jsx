@@ -29,7 +29,7 @@ export default class services extends Component {
               </div>
               {/* <h3>SERVICES PROVIDED BY DIVINE CARE LLC</h3> */}
             </div>
-            <h4>HOME CARE SERVICES</h4>
+            <h4>ASSISTED LIVING SERVICES</h4>
             <div className="Homeservices1">
               <ul>
                 <li>Registered Nurse Services</li>

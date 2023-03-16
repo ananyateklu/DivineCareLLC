@@ -18,12 +18,13 @@ export default class home extends Component {
           <div className="Titlediv">
             <h3 className="Title">WELCOME TO</h3>
             <h3 className="Title2"> DIVINE CARE LLC</h3>
+            <h3 className="Title"> RESIDENTIAL ASSISSTED LIVING</h3>
           </div>
           <h6>
             When it comes to healthcare assistance, it is essential to make sure
             that the person seeking assistance receives holistic care. Divine
             Care LLC is primarily engaged in providing personalized medical
-            assistance such as skilled nursing, home care aide and therapeutic
+            assistance such as skilled nursing, home health aide and therapeutic
             services through person-centered assistance living for people of all
             ages. Our care focuses not only on physical and mental health, but
             also on their spiritual and social well-being. At Divine Care LLC,
@@ -45,18 +46,18 @@ export default class home extends Component {
             <div className="flex-containerhome">
               <div className="flex1">
                 <div className="flex1in">
-                  <h3>SKILLED NURSING HOMES AT DIVINE CARE LLC</h3>
+                  <h3>OVERVIEW OF DIVINE CARE LLC</h3>
                   <h6>
-                    Our residential home, customized person center is equipped
-                    to accommodate a maximum of 4 residents per house to create
-                    the environment of home away from home. There can be many
+                    Our residential assisted living homes is equipped to
+                    accommodate upto 5 residents per house to create the
+                    environment of home away from home. There can be many
                     occasions when you or your family member might require
                     medical attention, therapeutic services, and assistance with
                     activities of daily living. These are all services that can
                     be provided at Divine Care by our skilled nurses and home
-                    health aide staff at the comfort of our customized
-                    living/assisted living homes. We are here to provide you
-                    with all the support you need towards living a better life.
+                    health aide staff at the comfort of our assisted living
+                    homes. We are here to provide you with all the support you
+                    need towards living a better life.
                   </h6>
                 </div>
               </div>

@@ -31,6 +31,7 @@ export default class location extends Component {
                 <h6>Address: 2606 River Hills Drive, Burnsville MN 55337</h6>
                 <h6>Phone: (952) 681-2535</h6>
                 <h6>Fax: (952) 681-2410</h6>
+                <h6>HFID number: 32164</h6>
               </div>
             </div>
             <div className="location2">
@@ -42,6 +43,7 @@ export default class location extends Component {
                 <h6>Address: 14135 Garrett Ave, Apple Valley, MN 55124</h6>
                 <h6>Phone: (952) 683-1914</h6>
                 <h6>Fax: (952) 683-1981</h6>
+                <h6>HFID number: 33148</h6>
               </div>
             </div>
           </div>

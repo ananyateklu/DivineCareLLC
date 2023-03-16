@@ -28,11 +28,11 @@ export default class about extends Component {
             </div>
             {/* <h3>ABOUT DIVINE CARE LLC</h3> */}
             <h6>
-              Divine Care LLC is a care provider licensed with the state of
-              Minnesota. We have a staff of highly trained nurses, home-health
-              aides and certified nursing assistants who assist you through
-              every step on your road to optimize your health while providing
-              quality medical service and attentive support.
+              Divine Care LLC is a residential assisted living licensed facility
+              in the state of Minnesota. We have a staff of highly trained
+              nurses, home-health aides and certified nursing assistants who
+              assist you through every step on your road to optimize your health
+              while providing quality medical service and attentive support.
             </h6>
             <h6>
               Our customized person-centered living facility is equipped to
@@ -42,10 +42,10 @@ export default class about extends Component {
             </h6>
             <h6>
               From a state housed child foster care center in 2012, we have now
-              equipped ourselves to a full-service customized adult living
-              facility providing all kind of services from high-health needs,
-              mechanical transfers to specialty assistance with day to day
-              chores.
+              equipped ourselves to a full-service residential assisted adult
+              living facility providing all kind of services from high-health
+              needs, mechanical transfers to specialty assistance with day to
+              day chores.
             </h6>
             <br />
             <br />
@@ -62,9 +62,9 @@ export default class about extends Component {
               grown kids, Fentu is a follower of the Christian faith.{" "}
             </h6>
             <h6>
-              From being a floor nurse to now owning and managing an customized
+              From being a floor nurse to now owning and managing an assisted
               living facility, Fentu has come a long way. Her mission behind the
-              establishment of Divine CareLLC is to move the people of Minnesota
+              establishment of Divine Care LLC is to move the people of Minnesota
               from nursing home to a home-based care environment where they can
               live within the community and maintain optimal health.{" "}
             </h6>
@@ -73,7 +73,7 @@ export default class about extends Component {
               helping them turn their life around. For her, its not just about
               providing healthcare assistance or aiding residents in their day
               to day tasks like feeding or cleaning, but also wants everyone to
-              strive in the community an cherish their independence.
+              thrive in the community and cherish their independence.
             </h6>
           </div>
           <img className="BottomPics" src={New1} alt="" />
