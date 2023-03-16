@@ -36,7 +36,7 @@ export default class about extends Component {
             </h6>
             <h6>
               Our customized person-centered living facility is equipped to
-              accommodate four clients per house, with one staff member
+              accommodate upto 5 clients per house, with one staff member
               available for every two clients. We also provide services
               pertaining to complex medical assistance.
             </h6>

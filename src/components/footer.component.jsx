@@ -47,9 +47,9 @@ export default class footer extends Component {
 
         <div className="Licence">
           <h6>
-            Licensed by Minnesota Department of health ; includes comprehensive
-            home care license, Housing with service and Clinical laboratory
-            improvement Amendments certificates
+            Licensed by Minnesota Department of health ; includes assisted
+            living license and Clinical laboratory improvement amendments
+            certificate
           </h6>
         </div>
         <div className="Copyright">

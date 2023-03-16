@@ -18,7 +18,6 @@ export default class home extends Component {
           <div className="Titlediv">
             <h3 className="Title">WELCOME TO</h3>
             <h3 className="Title2"> DIVINE CARE LLC</h3>
-            <h3 className="Title"> RESIDENTIAL ASSISSTED LIVING</h3>
           </div>
           <h6>
             When it comes to healthcare assistance, it is essential to make sure
@@ -48,7 +47,7 @@ export default class home extends Component {
                 <div className="flex1in">
                   <h3>OVERVIEW OF DIVINE CARE LLC</h3>
                   <h6>
-                    Our residential assisted living homes is equipped to
+                    Our residential assisted living homes are equipped to
                     accommodate upto 5 residents per house to create the
                     environment of home away from home. There can be many
                     occasions when you or your family member might require
